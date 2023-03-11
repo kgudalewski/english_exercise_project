@@ -1,7 +1,7 @@
 import random
 import pandas as pd
 
-df = pd.read_csv("slownik.csv", header=None, sep=";", encoding="cp1250", index_col=0).squeeze(axis=1)
+df = pd.read_csv("dictionary.csv", header=None, sep=";", encoding="cp1250", index_col=0).squeeze(axis=1)
 dict_of_words = df.to_dict()
 
 
