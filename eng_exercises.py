@@ -1,21 +1,23 @@
 import random
 import pandas as pd
 
-df = pd.read_csv("dictionary.csv", header=None, sep=";", encoding="cp1250", index_col=0).squeeze(axis=1)
-dict_of_words = df.to_dict()
+df = pd.read_csv("dictionary.csv", index_col=0) #, header=None, sep=";", encoding="cp1250", index_col=0
+dict_of_words = []
 
 
 def eng_pol(number_of_words=0):
     if number_of_words == 1:
-        eng_word = random.choice(list(dict_of_words))
-        pol_word = dict_of_words[eng_word]
+        idx = random.randint(0, df.shape[0])
+        eng_word = df.ANG[idx]
+        pol_word = df.POL[idx]
         print(eng_word, end=" - ")
         if input():
             print(pol_word.upper(), end="\n\n")
     else:
         while True:
-            eng_word = random.choice(list(dict_of_words))
-            pol_word = dict_of_words[eng_word]
+            idx = random.randint(0, df.shape[0])
+            eng_word = df.ANG[idx]
+            pol_word = df.POL[idx]
             print(eng_word, end=" - ")
             if input():
                 print(pol_word.upper(), end="\n\n")
@@ -23,15 +25,17 @@ def eng_pol(number_of_words=0):
 
 def pol_eng(number_of_words=0):
     if number_of_words == 1:
-        eng_word = random.choice(list(dict_of_words))
-        pol_word = dict_of_words[eng_word]
+        idx = random.randint(0, df.shape[0])
+        eng_word = df.ANG[idx]
+        pol_word = df.POL[idx]
         print(pol_word, end=" - ")
         if input():
             print(eng_word.upper(), end="\n\n")
     else:
         while True:
-            eng_word = random.choice(list(dict_of_words))
-            pol_word = dict_of_words[eng_word]
+            idx = random.randint(0, df.shape[0])
+            eng_word = df.ANG[idx]
+            pol_word = df.POL[idx]
             print(pol_word, end=" - ")
             if input():
                 print(eng_word.upper(), end="\n\n")
