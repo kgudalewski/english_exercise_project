@@ -1,262 +1,263 @@
-(to) resolve (into smth);rozkladac
-(to) capture;pojmac/pojac/przychwytywac/zdobywac
-(to) convert;przeksztalcic/konwertowac
-(to) decipher;rozszyfrowac/odcyfrowac
-(to) enable;umozliwiac
-(to) evaluate;oceniac
-(to) evolve;rozwijac/ewoluowac
-(to) involve;dotyczyc/ objac
-(to) lease;wydzierdzawic
-(to) maintain;utrzymywac
-(to) meet the need;zaspokoic potrzebe
-(to) operate;obslugiwac
-(to) prevent;zapobiec/uniemozliwiac/powstrzymywac
-(to) process;przetwarzac
-(to) provide;zapewniac/dostarczac
-(to) put emphasis;klasc nacisk
-(to) replicate;powielac/replikowac
-accesible remotely;dostepny zdalnie
-accuracy;dokladnosc
-accurate;dokladny
-alteration;zmiana
-assets;aktywa
-assumption;zalozenie
-at once;od razu
-concurrent access;rownoczesny dostep
-conduct of business;prowadzenie biznesu
-consistency;spojnosc
-consistent;spojny
-constraint/s;ograniczenie/wiezy
-critical;krytyczny/kluczowy
-crucial;istotny
-data recovery;odzyskiwanie danych
-data retrievial;wyszukiwanie danych
-database design;projekt bazy danych
-database designer;projektant baz danych
-deadlock;zakleszczenie/blokada wzajemna/zastoj
-distributed;rozproszone
-driver;sterownik
-efficient;wydajny/sprawny/efektywny
-encryption;szyfrowanie
-enhancement;poprawa/zwiekszenie
-evaluation;ocena
-execution time;czas wykonania
-executive (noun);kierownik/wykonawca
-explicit;przejrzysty
-field;pole
-future gain;przyszly zysk
-goodwill;wartosc firmy
-in alignment with;w zgodzie z
-incosistency;niespojnosc
-increase in revenue;wzrost przychodu
-inherent;nieodlaczny
-intangible;niematerialny
-intangible assets;aktywa niematerialne
-interrelated;wzajemnie powiazany
-inventory menagement;zarzadzanie zapasami
-maintenance;utrzymanie
-meaningful;znaczacy
-meaningless;bez znaczenia
-performance;wydajnosc
-principle;zasada
-productive;produktywny/wydajny
-raw data;surowe dane
-redundancy;nadmiarowosc/redundancja
-resources;zasoby
-retrieval of information;wyszukiwanie informacji
-row;wiersz
-service;usluga
-significant;istotny
-slightly;nieco
-suite;pakiet
-tablespace;obszar tabeli
-tangible assets;aktywa rzeczowe/ materialne
-tangible benefit;wymierna korzysc
-umbrella term;szerokie pojecie/ pojecie zbiorcze
-vendor;dostawca
-whereas;podczas gdy
-accelerated;przyspieszony
-accidental power outage;nagla przerwa w dostawie pradu
-attachment;zalacznik
-slot;gniazdo
-backup batery;bateria podtrzymujaca
-CD/DVD drive;naped CD/DVD
-circuit;obwod
-command key;klawisz polecenia
-computer case;obudowa komputera
-computer hardware;sprzet komputerowy
-computer software;oprogramowanie komputerowe
-connector;zlacze
-copper;miedz
-CPU socket;gniazdo procesora
-data storage device;urzadzenie do przechowywania danych
-datapath;sciezka danych
-duo-core CPU;procesor dwurdzeniowy
-(to be) equipped (with);byc wyposazonym
-execution;wykonanie
-external hard disk;twardy dysk zewnetrzny
-fan;wentylator/wiatraczek
-(to) fetch;pobierac
-function key;klawisz funkcyjny
-graphics card;karta graficzna
-hard disk drive;naped twardego dysku
-in current use;obecnie uzywany
-interchangeable;wymienny/zamienny
-internal hard disk;dysk twardy wewnetrzny
-(to) make up (smth);tworzyc cos
-network card;karta sieciowa
-non-volatile memory;nieulotna pamiec
-(to) obtain;otrzymac/uzyskac
-(to) perform task;wykonywac zadanie
-portable;przenosny
-power connector;zlacze zasilania
-power cord;kabel zasilajacy
-quad-core CPU;czterordzeniowy procesor
-RAM slot;gniazdo RAM
-register;rejestr
-(to) rewrite;ponownie zapisac
-single core CPU;jednordzeniowy procesor
-slot;gniazdo
-socket;gniazdo
-solid state drive;naped SSD
-sound card;karta dzwiekowa
-(to) spin;obracac
-spreadsheet;arkusz kalkulacyjny
-storage capacity;pojemnosc pamieci
-track;sciezka
-volatile memory;ulotna pamiec
-wire;przewod
-are concerned;jesli chodzi o
-boot;rozruch
-(to) decrypt;rozszyfrowac
-disparate;rozne
-disruption;zaklocenie
-(to) encrypt;zaszyfrowac
-expansion;rozszerzenie
-guideline;wytyczna
-hub;koncentrator
-node;wezel
-obstacle;przeszkoda
-(to) route;skierowac
-router;router
-scope of network;zasieg sieci
-to sum up;podsumowujac
-archivial data;dane archiwalne
-archivied data;dane zarchiwizowane
-batch processing;przetwarzanie wsadowe
-capability;mozliwosc/zdolnosc
-click-through;klikalnosc
-complementary;uzupelniajacy
-complex;zlozony
-confidentiality;poufnosc
-debatable issue;kwestia sporna
-disparate data;zroznicowane dane
-distributed processing;przetwarzanie rozproszone
-(to) execute;uruchamiac/wykonywac
-fault-tolerant;odporny na bledy
-fraud;oszustwo
-(to) go beyond smth;wykraczac poza
-heterogeneity;niejednorodnosc
-(to) intervene;ingerowac
-inventive;pomyslowy
-latency;zwloka/opoznienie
-(to) overcome issue;rozwiazac problem
-parallel batch procesing;rownolegle przetwarzanie wsadowe
-pattern;wzorzec
-(to) reveal;wyjawic/ujawnic/odslaniac
-(to) spot;zauwazyc/dostrzegac
-tabular database;tabelaryczna baza danych
-(to) tackle challenge;podjac wyzwanie
-trusthworthiness;wiarygodnosc
-variety;roznorodnosc
-velocity;predkosc
-veracity;wiarygodnosc
-volume;wolumen
-(to) accelerate;przyspieszac
-layer;warstwa
-challenger;pretendent
-periodical;okresowy
-positioning;pozycjonowanie
-query workload;obciazenie wskutek wykonywana zapytania
-scorecard;karta wynikow
-pivot table;tabela przestawna
-computation;obliczenie
-(to) conduct analysis;przeprowadzic analize
-expression;wyrazenie
-(to) state;okreslic/oglaszac
-subject-oriented;tematyczny
-surrogate key;klucz sztuczny
-text mining;eksploracja tekstu
-time-consuming;czasochlonny
-time-variant;zmienny w czasie
-(to) transform;przeksztalcic
-validation rule;regula poprawnosci
-visionary;wizjoner
-visually appealing;atrakcyjny wizualnie
-data validation;sprawdzenie poprawnosci danych
-data warehouse;hurtownia danych
-(to) detect;wykrywac
-(to) encompass;obejmowac
-forecast;prognoza
-reference;odwolanie
-fragmented;rozdrobniony
-(to) guesstimate;"szacowac ""na oko"""
-invalid data;nieprawidlowe dane
-(to) leverage customer data;wykorzystac dane o klientach
-(to) offload;odciazac
-(to) apply (to smth);odnosic siê/miec zastosowanie (do czegos)
-advance;postep
-bar code;kod kreskowy
-collinear;wspolliniowe
-converging paths;zbiegajace sie sciezki
-criterion variable;zmienna kryterialna
-descriptive;opisowy
-differential analysis;analiza roznicowa
-explanatory variable;zmienna objasniajaca
-flow chart;schemat blokowy
-forecasting;prognozowanie
-(to) harness;ujarzmic/okielznac
-hyperplane;hiper plaszczyzna
-initial exploration;wstepna ekploracja
-internal node;wezel wewnetrzny
-knowladge discovery;odkrywanie wiedzy
-kowladge extraction;wydobywanie wiedzy
-legacy data;dane historyczne
-measure of uncertainty;miara niepewnosci
-(to) mimic;nasladowac
-outcome;wynik/rezultat
-pattern recognition;rozpoznywanie wzorcow
-quantitative modelling;modelowanie ilosciowe
-shopping cart;wozek sklepowy/ koszyk na zakupy
-spurious pattern;falszywy wzorzec
-terminal node;wezel koncowy
-underlying data;dane zrodlowe
-widespread;rozpowszechnione
-(to) alter;zmieniac
-(to) clarify;wyjasniac/doprecyzowac
-(to) comply with restrictions;stosowac sie do ograniczen
-concurrent user;wspoluzytkownik
-copyright infringement;naruszenie praw autorskich
-core;rdzen
-(to) disable;wylaczac/blokowac/uniemozliwic
-disclaimer;zrzeczenie sie odpowiedzialnosci
-(to) encounter;napotykac
-fair use;dozwolony uzytek
-(to) grant;przyznawac/udzielac
-(to) grant permission;udzielic zezwolenia
-if applicable;jesli dotyczy
-instance;instancja
-(to be) intended ;byc przeznaczonym
-legally binding agreement;umowa wiazaca prawnie
-(to) launch;uruchamiac
-limitation of liability;ograniczenie odpowiedzialnosci
-(to) network;polaczyc w siec
-ownership rights;prawa wlasnosci
-(to) permit;zezwalac
-publisher;wydawca
-refinement;udoskonalenie
-(to) restore;przywracac
-restriction;ograniczenie
-seal;plomba
-(to) terminate;zakonczyc/przerwac/rozwiazac(umowe)
-warranty;gwarancja
+,ANG,POL,weights
+0,(to be) equipped,byc wyposazonym,0.7597542961332073
+1,(to be) intended ,byc przeznaczonym,0.5707478246750696
+2,(to) accelerate,przyspieszac,0.16618831051688343
+3,(to) alter,zmieniac,0.34987065434146736
+4,(to) apply,odnosic sie/miec zastosowanie,0.7904357707421732
+5,(to) capture,pojmac/pojac/przychwytywac/zdobywac,0.1626191187354411
+6,(to) clarify,wyjasniac/doprecyzowac,0.4838942935433518
+7,(to) comply with restrictions,stosowac sie do ograniczen,0.49946583124150334
+8,(to) conduct analysis,przeprowadzic analize,0.8566797475051325
+9,(to) convert,przeksztalcic/konwertowac,0.3011126546467886
+10,(to) decipher,rozszyfrowac/odcyfrowac,0.045833994753044616
+11,(to) decrypt,rozszyfrowac,0.7324412376591937
+12,(to) detect,wykrywac,0.8974730905180879
+13,(to) disable,wylaczac/blokowac/uniemozliwic,0.10961092325981248
+14,(to) enable,umozliwiac,0.11691826160391405
+15,(to) encompass,obejmowac,0.050089048806352676
+16,(to) encounter,napotykac,0.6648207470724729
+17,(to) encrypt,zaszyfrowac,0.579035456980966
+18,(to) evaluate,oceniac,0.6018924257467247
+19,(to) evolve,rozwijac/ewoluowac,0.1377690241252545
+20,(to) execute,uruchamiac/wykonywac,0.5894298463903694
+21,(to) fetch,pobierac,0.6036369403445394
+22,(to) go beyond,wykraczac poza,0.011406587154326187
+23,(to) grant,przyznawac/udzielac,0.7291924706576657
+24,(to) grant permission,udzielic zezwolenia,0.6693734093550042
+25,(to) guesstimate,szacowac,0.3732645290687847
+26,(to) harness,ujarzmic/okielznac,0.7538635912320447
+27,(to) intervene,ingerowac,0.3191739864906976
+28,(to) involve,dotyczyc/ objac,0.8998393672214837
+29,(to) launch,uruchamiac,0.9553907091002388
+30,(to) lease,wydzierdzawic,0.286247470809445
+31,(to) leverage customer data,wykorzystac dane o klientach,0.8396205198673387
+32,(to) maintain,utrzymywac,0.08696801200131132
+33,(to) make up,tworzyc cos,0.056995824894381486
+34,(to) meet the need,zaspokoic potrzebe,0.9153568488146245
+35,(to) mimic,nasladowac,0.35942578615047516
+36,(to) network,polaczyc w siec,0.4093770871708695
+37,(to) obtain,otrzymac/uzyskac,0.36143951355794524
+38,(to) offload,odciazac,0.3852817385685038
+39,(to) operate,obslugiwac,0.8767831561178666
+40,(to) overcome issue,rozwiazac problem,0.04458017318619367
+41,(to) perform task,wykonywac zadanie,0.6493405543734113
+42,(to) permit,zezwalac,0.2867051112508332
+43,(to) prevent,zapobiec/uniemozliwiac/powstrzymywac,0.381424350345547
+44,(to) process,przetwarzac,0.7756312226205427
+45,(to) provide,zapewniac/dostarczac,0.558900622802015
+46,(to) put emphasis,klasc nacisk,0.6831260683094182
+47,(to) replicate,powielac/replikowac,0.5556488504056117
+48,(to) resolve,rozkladac,0.27110327468476203
+49,(to) restore,przywracac,0.19419120426918424
+50,(to) reveal,wyjawic/ujawnic/odslaniac,0.7717914413913095
+51,(to) rewrite,ponownie zapisac,0.38442373371245675
+52,(to) route,skierowac,0.7202869679962969
+53,(to) spin,obracac,0.20092154814722174
+54,(to) spot,zauwazyc/dostrzegac,0.24356533347820508
+55,(to) state,okreslic/oglaszac,0.3656876054851357
+56,(to) tackle challenge,podjac wyzwanie,0.07068486838231569
+57,(to) terminate,zakonczyc/przerwac,0.07434705642079797
+58,(to) transform,przeksztalcic,0.9252542275704911
+59,accelerated,przyspieszony,0.5963704896184272
+60,accesible remotely,dostepny zdalnie,0.5293037711726422
+61,accidental power outage,nagla przerwa w dostawie pradu,0.8601520629563408
+62,accuracy,dokladnosc,0.5432867147742984
+63,accurate,dokladny,0.0919175458695155
+64,advance,postep,0.19756150623881774
+65,alteration,zmiana,0.7797971696889922
+66,archivial data,dane archiwalne,0.8624687703832848
+67,archivied data,dane zarchiwizowane,0.6606939473736831
+68,are concerned,jesli chodzi o,0.363060870643074
+69,assets,aktywa,0.5522528579471409
+70,assumption,zalozenie,0.9905518044436127
+71,at once,od razu,0.883706024620655
+72,attachment,zalacznik,0.36531382050129646
+73,backup batery,bateria podtrzymujaca,0.7793649528380207
+74,bar code,kod kreskowy,0.06817108884191092
+75,batch processing,przetwarzanie wsadowe,0.11878856736590593
+76,boot,rozruch,0.23912060578429917
+77,capability,mozliwosc/zdolnosc,0.35425599936020835
+78,CD drive,naped CD,0.7857521205011834
+79,challenger,pretendent,0.08773616109498572
+80,circuit,obwod,0.11000128076619775
+81,click-through,klikalnosc,0.2915781824466961
+82,collinear,wspolliniowe,0.414777600444867
+83,command key,klawisz polecenia,0.9095067739493653
+84,complementary,uzupelniajacy,0.5524150367582843
+85,complex,zlozony,0.6956217272975731
+86,computation,obliczenie,0.511943179428237
+87,computer case,obudowa komputera,0.9794558570245823
+88,computer hardware,sprzet komputerowy,0.23704465219123727
+89,computer software,oprogramowanie komputerowe,0.2819298482647694
+90,concurrent access,rownoczesny dostep,0.6570737693075673
+91,concurrent user,wspoluzytkownik,0.33280273000484417
+92,conduct of business,prowadzenie biznesu,0.20322324685392557
+93,confidentiality,poufnosc,0.5526636347818434
+94,connector,zlacze,0.9668386587558924
+95,consistency,spojnosc,0.3781773462243804
+96,consistent,spojny,0.655235781258405
+97,constraint/s,ograniczenie/wiezy,0.8861013130404528
+98,converging paths,zbiegajace sie sciezki,0.5671960696466591
+99,copper,miedz,0.5381075658911783
+100,copyright infringement,naruszenie praw autorskich,0.42100297514610074
+101,core,rdzen,0.3942776562204364
+102,CPU socket,gniazdo procesora,0.10945337242135711
+103,criterion variable,zmienna kryterialna,0.05820033318064066
+104,critical,krytyczny/kluczowy,0.5523662426954283
+105,crucial,istotny,0.8481780477947138
+106,data recovery,odzyskiwanie danych,0.2522061059091055
+107,data retrievial,wyszukiwanie danych,0.8299559544200069
+108,data storage device,urzadzenie do przechowywania danych,0.4745960820867172
+109,data validation,sprawdzenie poprawnosci danych,0.5573515537676548
+110,data warehouse,hurtownia danych,0.07620987951102232
+111,database design,projekt bazy danych,0.07415839635354038
+112,database designer,projektant baz danych,0.5347119066106062
+113,datapath,sciezka danych,0.6724649690632982
+114,deadlock,zakleszczenie/blokada wzajemna/zastoj,0.4295654011590364
+115,debatable issue,kwestia sporna,0.5048028305899117
+116,descriptive,opisowy,0.9413723281048078
+117,differential analysis,analiza roznicowa,0.7673084119693985
+118,disclaimer,zrzeczenie sie odpowiedzialnosci,0.6659768581695679
+119,disparate,rozne,0.9090322678929399
+120,disparate data,zroznicowane dane,0.2873461570239797
+121,disruption,zaklocenie,0.3895832964580608
+122,distributed,rozproszone,0.0801994245964146
+123,distributed processing,przetwarzanie rozproszone,0.5427507680834747
+124,driver,sterownik,0.9394636175704232
+125,duo-core CPU,procesor dwurdzeniowy,0.817389637560167
+126,efficient,wydajny/sprawny/efektywny,0.32048638723156897
+127,encryption,szyfrowanie,0.16221372489206143
+128,enhancement,poprawa/zwiekszenie,0.012267270730299096
+129,evaluation,ocena,0.025749628397868762
+130,execution,wykonanie,0.8066648025088496
+131,execution time,czas wykonania,0.9940321109557007
+132,executive (noun),kierownik/wykonawca,0.046001101915628784
+133,expansion,rozszerzenie,0.3293173502256199
+134,explanatory variable,zmienna objasniajaca,0.9028380094042263
+135,explicit,przejrzysty,0.9655759288690227
+136,expression,wyrazenie,0.7430704469355761
+137,external hard disk,twardy dysk zewnetrzny,0.7028821322784488
+138,fair use,dozwolony uzytek,0.3305906827226942
+139,fan,wentylator/wiatraczek,0.5387374858267898
+140,fault-tolerant,odporny na bledy,0.8578216690645333
+141,field,pole,0.6333754626809216
+142,flow chart,schemat blokowy,0.9611123087498148
+143,forecast,prognoza,0.6158564665753687
+144,forecasting,prognozowanie,0.892095480963251
+145,fragmented,rozdrobniony,0.08134040428119349
+146,fraud,oszustwo,0.005904989180519182
+147,function key,klawisz funkcyjny,0.6943291117156308
+148,future gain,przyszly zysk,0.913609092998223
+149,goodwill,wartosc firmy,0.6181456896372617
+150,graphics card,karta graficzna,0.07907219628988027
+151,guideline,wytyczna,0.7636324509143707
+152,hard disk drive,naped twardego dysku,0.6738431449221176
+153,heterogeneity,niejednorodnosc,0.7661035327249905
+154,hub,koncentrator,0.1556000673785196
+155,hyperplane,hiper plaszczyzna,0.24707004819181988
+156,if applicable,jesli dotyczy,0.7169489183631064
+157,in alignment with,w zgodzie z,0.5591630222567072
+158,in current use,obecnie uzywany,0.5483472872393867
+159,incosistency,niespojnosc,0.28045741158435444
+160,increase in revenue,wzrost przychodu,0.41893598747189564
+161,inherent,nieodlaczny,0.3130841854037354
+162,initial exploration,wstepna ekploracja,0.7108670162353367
+163,instance,instancja,0.04795792103396468
+164,intangible,niematerialny,0.7383237220430465
+165,intangible assets,aktywa niematerialne,0.056920850604547435
+166,interchangeable,wymienny/zamienny,0.133755144308221
+167,internal hard disk,dysk twardy wewnetrzny,0.7579483004759168
+168,internal node,wezel wewnetrzny,0.5369211090439066
+169,interrelated,wzajemnie powiazany,0.802171708242118
+170,invalid data,nieprawidlowe dane,0.2813103675786831
+171,inventive,pomyslowy,0.3383097597038558
+172,inventory menagement,zarzadzanie zapasami,0.1834607187271261
+173,knowladge discovery,odkrywanie wiedzy,0.5968843140233097
+174,knowledge extraction,wydobywanie wiedzy,0.7091776709718841
+175,latency,zwloka/opoznienie,0.3809193329369025
+176,layer,warstwa,0.10375062605649288
+177,legacy data,dane historyczne,0.5382210500588293
+178,legally binding agreement,umowa wiazaca prawnie,0.958259643246142
+179,limitation of liability,ograniczenie odpowiedzialnosci,0.12043436002175545
+180,maintenance,utrzymanie,0.5034304363289873
+181,meaningful,znaczacy,0.1529255359716195
+182,meaningless,bez znaczenia,0.8314917628844649
+183,measure of uncertainty,miara niepewnosci,0.03977701294054681
+184,network card,karta sieciowa,0.5890766041908824
+185,node,wezel,0.3772446205716691
+186,non-volatile memory,nieulotna pamiec,0.24883688127572656
+187,obstacle,przeszkoda,0.30344972201037457
+188,outcome,wynik/rezultat,0.3179108169703512
+189,ownership rights,prawa wlasnosci,0.27010833664549505
+190,parallel batch procesing,rownolegle przetwarzanie wsadowe,0.21810724375229307
+191,pattern,wzorzec,0.9310618589318643
+192,pattern recognition,rozpoznywanie wzorcow,0.3207919189885454
+193,performance,wydajnosc,0.8677911244240663
+194,periodical,okresowy,0.9156819131979502
+195,pivot table,tabela przestawna,0.49621506216310896
+196,portable,przenosny,0.692787302008842
+197,positioning,pozycjonowanie,0.2521092417415126
+198,power connector,zlacze zasilania,0.554171289005749
+199,power cord,kabel zasilajacy,0.2726849544369614
+200,principle,zasada,0.12314008034251
+201,productive,produktywny/wydajny,0.1548765844161284
+202,publisher,wydawca,0.7198037011022216
+203,quad-core CPU,czterordzeniowy procesor,0.7251937590481462
+204,quantitative modelling,modelowanie ilosciowe,0.37961325609413255
+205,query workload,obciazenie wskutek wykonywana zapytania,0.42795016226608307
+206,RAM slot,gniazdo RAM,0.3550511552361356
+207,raw data,surowe dane,0.5497347637694525
+208,redundancy,nadmiarowosc/redundancja,0.6677581176788069
+209,reference,odwolanie,0.3974286049340039
+210,refinement,udoskonalenie,0.7337493346936386
+211,register,rejestr,0.45451628677448497
+212,resources,zasoby,0.7451502569500894
+213,restriction,ograniczenie,0.9159000625315808
+214,retrieval of information,wyszukiwanie informacji,0.2320150436523445
+215,router,router,0.4843958537219252
+216,row,wiersz,0.21431422723187576
+217,scope of network,zasieg sieci,0.4237548336004483
+218,scorecard,karta wynikow,0.31824751306694277
+219,seal,plomba,0.436224981420953
+220,service,usluga,0.7208695380997867
+221,shopping cart,wozek sklepowy/ koszyk na zakupy,0.16282439953625938
+222,significant,istotny,0.6426220522112489
+223,single core CPU,jednordzeniowy procesor,0.695047172227938
+224,slightly,nieco,0.9203009168796737
+225,slot,gniazdo,0.7040403439261836
+226,socket,gniazdo,0.056144955448040657
+227,solid state drive,naped SSD,0.8950314491911757
+228,sound card,karta dzwiekowa,0.40048542574234336
+229,spreadsheet,arkusz kalkulacyjny,0.12383263172198966
+230,spurious pattern,falszywy wzorzec,0.995124211880394
+231,storage capacity,pojemnosc pamieci,0.45658084107559704
+232,subject-oriented,tematyczny,0.43173953243433016
+233,suite,pakiet,0.6334605234601972
+234,surge,przyplyw/fala,0.8809292480925281
+235,surrogate key,klucz sztuczny,0.5836469674840135
+236,tablespace,obszar tabeli,0.6030155009231422
+237,tabular database,tabelaryczna baza danych,0.16009403174846393
+238,tangible assets,aktywa rzeczowe/ materialne,0.6187763525286029
+239,tangible benefit,wymierna korzysc,0.7178839691185235
+240,terminal node,wezel koncowy,0.7855441755553532
+241,text mining,eksploracja tekstu,0.6804588534170283
+242,time-consuming,czasochlonny,0.1470746593891905
+243,time-variant,zmienny w czasie,0.4426360367170974
+244,to sum up,podsumowujac,0.44183631817792146
+245,track,sciezka,0.7421211148658976
+246,trusthworthiness,wiarygodnosc,0.28487323017269517
+247,umbrella term,szerokie pojecie/ pojecie zbiorcze,0.019472880024728467
+248,underlying data,dane zrodlowe,0.5266393044811079
+249,validation rule,regula poprawnosci,0.8014334302299415
+250,variety,roznorodnosc,0.3518439867729358
+251,velocity,predkosc,0.7253211983010218
+252,vendor,dostawca,0.5645288560796454
+253,veracity,wiarygodnosc,0.8622799399748549
+254,visionary,wizjoner,0.12996501174276087
+255,visually appealing,atrakcyjny wizualnie,0.9071211346382423
+256,volatile memory,ulotna pamiec,0.9143199871246969
+257,volume,wolumen,0.2740805862009812
+258,warranty,gwarancja,0.0644010529966853
+259,whereas,podczas gdy,0.7061718970135243
+260,widespread,rozpowszechnione,0.3503789040391573
+261,wire,przewod,0.5547232772210571
