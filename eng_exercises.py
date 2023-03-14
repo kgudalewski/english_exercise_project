@@ -25,7 +25,7 @@ def eng_pol(number_of_words=0):
         if input():
             print(pol_word.upper())
             upload_weight(df, idx)
-
+            df.to_csv("dictionary.csv")
     else:
         while True:
             idx = random.randint(0, df.shape[0])
@@ -35,6 +35,7 @@ def eng_pol(number_of_words=0):
             if input():
                 print(pol_word.upper())
                 upload_weight(df, idx)
+                df.to_csv("dictionary.csv")
 
 
 def pol_eng(number_of_words=0):
@@ -46,6 +47,7 @@ def pol_eng(number_of_words=0):
         if input():
             print(eng_word.upper())
             upload_weight(df, idx)
+            df.to_csv("dictionary.csv")
     else:
         while True:
             idx = random.randint(0, df.shape[0])
@@ -55,6 +57,7 @@ def pol_eng(number_of_words=0):
             if input():
                 print(eng_word.upper())
                 upload_weight(df, idx)
+                df.to_csv("dictionary.csv")
 
 
 def random_choice():
@@ -66,4 +69,4 @@ def random_choice():
 
 
 if __name__ == "__main__":
-    random_choice()
+    eng_pol()
