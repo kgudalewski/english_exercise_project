@@ -1,8 +1,19 @@
 import random
 import pandas as pd
+import warnings
+warnings.filterwarnings('ignore')
 
-df = pd.read_csv("dictionary.csv", index_col=0) #, header=None, sep=";", encoding="cp1250", index_col=0
-dict_of_words = []
+df = pd.read_csv("dictionary.csv", index_col=0)
+
+
+def upload_weight(dframe, indx):
+    yes_rate = 1.3
+    no_rate = 0.7
+    if (input("Correct ? [Y/N] ").upper()) == "Y":
+        dframe.weights[indx] *= yes_rate
+    else:
+        dframe.weights[indx] *= no_rate
+    print()
 
 
 def eng_pol(number_of_words=0):
@@ -12,7 +23,9 @@ def eng_pol(number_of_words=0):
         pol_word = df.POL[idx]
         print(eng_word, end=" - ")
         if input():
-            print(pol_word.upper(), end="\n\n")
+            print(pol_word.upper())
+            upload_weight(df, idx)
+
     else:
         while True:
             idx = random.randint(0, df.shape[0])
@@ -20,7 +33,8 @@ def eng_pol(number_of_words=0):
             pol_word = df.POL[idx]
             print(eng_word, end=" - ")
             if input():
-                print(pol_word.upper(), end="\n\n")
+                print(pol_word.upper())
+                upload_weight(df, idx)
 
 
 def pol_eng(number_of_words=0):
@@ -30,7 +44,8 @@ def pol_eng(number_of_words=0):
         pol_word = df.POL[idx]
         print(pol_word, end=" - ")
         if input():
-            print(eng_word.upper(), end="\n\n")
+            print(eng_word.upper())
+            upload_weight(df, idx)
     else:
         while True:
             idx = random.randint(0, df.shape[0])
@@ -38,7 +53,8 @@ def pol_eng(number_of_words=0):
             pol_word = df.POL[idx]
             print(pol_word, end=" - ")
             if input():
-                print(eng_word.upper(), end="\n\n")
+                print(eng_word.upper())
+                upload_weight(df, idx)
 
 
 def random_choice():
