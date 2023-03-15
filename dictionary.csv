@@ -1,263 +1,266 @@
-,ANG,POL,weights
-0,(to) apply,odnosic sie/miec zastosowanie,0.48999999999999994
-1,accidental power outage,nagla przerwa w dostawie pradu,0.7
-2,(to) capture,pojmac/pojac/przychwytywac/zdobywac,0.7
-3,(to) prevent,zapobiec/uniemozliwiac/powstrzymywac,0.7
-4,debatable issue,kwestia sporna,0.7
-5,graphics card,karta graficzna,0.7
-6,(to) leverage customer data,wykorzystac dane o klientach,0.7
-7,visually appealing,atrakcyjny wizualnie,0.7
-8,encryption,szyfrowanie,0.7
-9,(to) enable,umozliwiac,0.7
-10,copyright infringement,naruszenie praw autorskich,0.9099999999999999
-11,are concerned,jesli chodzi o,1.0
-12,(to) execute,uruchamiac/wykonywac,1.0
-13,(to) lease,wydzierdzawic,1.0
-14,(to) clarify,wyjasniac/doprecyzowac,1.0
-15,data retrievial,wyszukiwanie danych,1.0
-16,(to) fetch,pobierac,1.0
-17,(to) encompass,obejmowac,1.0
-18,(to) decrypt,rozszyfrowac,1.0
-19,(to) maintain,utrzymywac,1.0
-20,(to) harness,ujarzmic/okielznac,1.0
-21,(to) intervene,ingerowac,1.0
-22,(to) transform,przeksztalcic,1.0
-23,(to) conduct analysis,przeprowadzic analize,1.0
-24,(to) grant permission,udzielic zezwolenia,1.0
-25,(to be) intended ,byc przeznaczonym,1.0
-26,(to) evaluate,oceniac,1.0
-27,(to) grant,przyznawac/udzielac,1.0
-28,advance,postep,1.0
-29,(to) involve,dotyczyc/ objac,1.0
-30,(to) guesstimate,szacowac,1.0
-31,(to) offload,odciazac,1.0
-32,(to) disable,wylaczac/blokowac/uniemozliwic,1.0
-33,(to) obtain,otrzymac/uzyskac,1.0
-34,(to) go beyond,wykraczac poza,1.0
-35,(to) convert,przeksztalcic/konwertowac,1.0
-36,(to) detect,wykrywac,1.0
-37,database designer,projektant baz danych,1.0
-38,future gain,przyszly zysk,1.0
-39,(to) overcome issue,rozwiazac problem,1.0
-40,driver,sterownik,1.0
-41,limitation of liability,ograniczenie odpowiedzialnosci,1.0
-42,core,rdzen,1.0
-43,data validation,sprawdzenie poprawnosci danych,1.0
-44,(to be) equipped,byc wyposazonym,1.0
-45,assets,aktywa,1.0
-46,(to) state,okreslic/oglaszac,1.0
-47,widespread,rozpowszechnione,1.0
-48,accurate,dokladny,1.0
-49,(to) tackle challenge,podjac wyzwanie,1.0
-50,(to) reveal,wyjawic/ujawnic/odslaniac,1.0
-51,execution,wykonanie,1.0
-52,(to) make up,tworzyc cos,1.0
-53,(to) put emphasis,klasc nacisk,1.0
-54,bar code,kod kreskowy,1.0
-55,challenger,pretendent,1.0
-56,(to) encrypt,zaszyfrowac,1.0
-57,(to) spin,obracac,1.0
-58,(to) decipher,rozszyfrowac/odcyfrowac,1.0
-59,(to) perform task,wykonywac zadanie,1.0
-60,criterion variable,zmienna kryterialna,1.0
-61,fraud,oszustwo,1.0
-62,(to) meet the need,zaspokoic potrzebe,1.0
-63,duo-core CPU,procesor dwurdzeniowy,1.0
-64,batch processing,przetwarzanie wsadowe,1.0
-65,connector,zlacze,1.0
-66,archivied data,dane zarchiwizowane,1.0
-67,boot,rozruch,1.0
-68,(to) evolve,rozwijac/ewoluowac,1.0
-69,consistency,spojnosc,1.0
-70,consistent,spojny,1.0
-71,accesible remotely,dostepny zdalnie,1.0
-72,computer hardware,sprzet komputerowy,1.0
-73,computation,obliczenie,1.0
-74,database design,projekt bazy danych,1.0
-75,concurrent user,wspoluzytkownik,1.0
-76,backup batery,bateria podtrzymujaca,1.0
-77,disparate,rozne,1.0
-78,attachment,zalacznik,1.0
-79,collinear,wspolliniowe,1.0
-80,confidentiality,poufnosc,1.0
-81,circuit,obwod,1.0
-82,(to) network,polaczyc w siec,1.0
-83,complex,zlozony,1.0
-84,concurrent access,rownoczesny dostep,1.0
-85,wire,przewod,1.0
-86,computer software,oprogramowanie komputerowe,1.0
-87,archivial data,dane archiwalne,1.0
-88,computer case,obudowa komputera,1.0
-89,complementary,uzupelniajacy,1.0
-90,conduct of business,prowadzenie biznesu,1.0
-91,(to) launch,uruchamiac,1.0
-92,(to) resolve,rozkladac,1.0
-93,(to) operate,obslugiwac,1.0
-94,distributed processing,przetwarzanie rozproszone,1.0
-95,(to) alter,zmieniac,1.0
-96,(to) route,skierowac,1.0
-97,critical,krytyczny/kluczowy,1.0
-98,(to) rewrite,ponownie zapisac,1.0
-99,efficient,wydajny/sprawny/efektywny,1.0
-100,converging paths,zbiegajace sie sciezki,1.0
-101,crucial,istotny,1.0
-102,descriptive,opisowy,1.0
-103,pivot table,tabela przestawna,1.0
-104,enhancement,poprawa/zwiekszenie,1.0
-105,data warehouse,hurtownia danych,1.0
-106,assumption,zalozenie,1.0
-107,command key,klawisz polecenia,1.0
-108,disruption,zaklocenie,1.0
-109,datapath,sciezka danych,1.0
-110,data recovery,odzyskiwanie danych,1.0
-111,constraint/s,ograniczenie/wiezy,1.0
-112,deadlock,zakleszczenie/blokada wzajemna/zastoj,1.0
-113,disparate data,zroznicowane dane,1.0
-114,at once,od razu,1.0
-115,(to) restore,przywracac,1.0
-116,data storage device,urzadzenie do przechowywania danych,1.0
-117,distributed,rozproszone,1.0
-118,differential analysis,analiza roznicowa,1.0
-119,non-volatile memory,nieulotna pamiec,1.0
-120,(to) comply with restrictions,stosowac sie do ograniczen,1.0
-121,reference,odwolanie,1.0
-122,router,router,1.0
-123,maintenance,utrzymanie,1.0
-124,network card,karta sieciowa,1.0
-125,periodical,okresowy,1.0
-126,(to) provide,zapewniac/dostarczac,1.0
-127,portable,przenosny,1.0
-128,in current use,obecnie uzywany,1.0
-129,(to) process,przetwarzac,1.0
-130,(to) terminate,zakonczyc/przerwac,1.0
-131,power cord,kabel zasilajacy,1.0
-132,accelerated,przyspieszony,1.0
-133,(to) replicate,powielac/replikowac,1.0
-134,field,pole,1.0
-135,goodwill,wartosc firmy,1.0
-136,fault-tolerant,odporny na bledy,1.0
-137,sound card,karta dzwiekowa,1.0
-138,scope of network,zasieg sieci,1.0
-139,in alignment with,w zgodzie z,1.0
-140,subject-oriented,tematyczny,1.0
-141,initial exploration,wstepna ekploracja,1.0
-142,internal hard disk,dysk twardy wewnetrzny,1.0
-143,guideline,wytyczna,1.0
-144,hyperplane,hiper plaszczyzna,1.0
-145,fragmented,rozdrobniony,1.0
-146,retrieval of information,wyszukiwanie informacji,1.0
-147,restriction,ograniczenie,1.0
-148,time-variant,zmienny w czasie,1.0
-149,expansion,rozszerzenie,1.0
-150,interrelated,wzajemnie powiazany,1.0
-151,node,wezel,1.0
-152,inventory menagement,zarzadzanie zapasami,1.0
-153,instance,instancja,1.0
-154,latency,zwloka/opoznienie,1.0
-155,meaningless,bez znaczenia,1.0
-156,internal node,wezel wewnetrzny,1.0
-157,measure of uncertainty,miara niepewnosci,1.0
-158,query workload,obciazenie wskutek wykonywana zapytania,1.0
-159,explicit,przejrzysty,1.0
-160,hub,koncentrator,1.0
-161,pattern recognition,rozpoznywanie wzorcow,1.0
-162,expression,wyrazenie,1.0
-163,ownership rights,prawa wlasnosci,1.0
-164,incosistency,niespojnosc,1.0
-165,intangible,niematerialny,1.0
-166,knowledge extraction,wydobywanie wiedzy,1.0
-167,spreadsheet,arkusz kalkulacyjny,1.0
-168,legally binding agreement,umowa wiazaca prawnie,1.0
-169,evaluation,ocena,1.0
-170,inherent,nieodlaczny,1.0
-171,legacy data,dane historyczne,1.0
-172,executive (noun),kierownik/wykonawca,1.0
-173,pattern,wzorzec,1.0
-174,knowladge discovery,odkrywanie wiedzy,1.0
-175,single core CPU,jednordzeniowy procesor,1.0
-176,explanatory variable,zmienna objasniajaca,1.0
-177,umbrella term,szerokie pojecie/ pojecie zbiorcze,1.0
-178,tangible benefit,wymierna korzysc,1.0
-179,resources,zasoby,1.0
-180,positioning,pozycjonowanie,1.0
-181,text mining,eksploracja tekstu,1.0
-182,slightly,nieco,1.0
-183,slot,gniazdo,1.0
-184,solid state drive,naped SSD,1.0
-185,fair use,dozwolony uzytek,1.0
-186,tablespace,obszar tabeli,1.0
-187,quad-core CPU,czterordzeniowy procesor,1.0
-188,raw data,surowe dane,1.0
-189,fan,wentylator/wiatraczek,1.0
-190,redundancy,nadmiarowosc/redundancja,1.0
-191,whereas,podczas gdy,1.0
-192,refinement,udoskonalenie,1.0
-193,shopping cart,wozek sklepowy/ koszyk na zakupy,1.0
-194,socket,gniazdo,1.0
-195,power connector,zlacze zasilania,1.0
-196,service,usluga,1.0
-197,row,wiersz,1.0
-198,principle,zasada,1.0
-199,performance,wydajnosc,1.0
-200,flow chart,schemat blokowy,1.0
-201,quantitative modelling,modelowanie ilosciowe,1.0
-202,(to) spot,zauwazyc/dostrzegac,1.0
-203,significant,istotny,1.0
-204,tabular database,tabelaryczna baza danych,1.0
-205,trusthworthiness,wiarygodnosc,1.0
-206,veracity,wiarygodnosc,1.0
-207,scorecard,karta wynikow,1.0
-208,time-consuming,czasochlonny,1.0
-209,surge,przyplyw/fala,1.0
-210,surrogate key,klucz sztuczny,1.0
-211,vendor,dostawca,1.0
-212,velocity,predkosc,1.0
-213,(to) permit,zezwalac,1.0
-214,forecast,prognoza,1.0
-215,track,sciezka,1.0
-216,to sum up,podsumowujac,1.0
-217,execution time,czas wykonania,1.0
-218,volume,wolumen,1.0
-219,spurious pattern,falszywy wzorzec,1.0
-220,register,rejestr,1.0
-221,warranty,gwarancja,1.0
-222,suite,pakiet,1.0
-223,volatile memory,ulotna pamiec,1.0
-224,visionary,wizjoner,1.0
-225,variety,roznorodnosc,1.0
-226,productive,produktywny/wydajny,1.0
-227,terminal node,wezel koncowy,1.0
-228,validation rule,regula poprawnosci,1.0
-229,invalid data,nieprawidlowe dane,1.0
-230,forecasting,prognozowanie,1.3
-231,outcome,wynik/rezultat,1.3
-232,hard disk drive,naped twardego dysku,1.3
-233,alteration,zmiana,1.3
-234,intangible assets,aktywa niematerialne,1.3
-235,(to) mimic,nasladowac,1.3
-236,accuracy,dokladnosc,1.3
-237,storage capacity,pojemnosc pamieci,1.3
-238,(to) accelerate,przyspieszac,1.3
-239,external hard disk,twardy dysk zewnetrzny,1.3
-240,CD drive,naped CD,1.3
-241,parallel batch procesing,rownolegle przetwarzanie wsadowe,1.3
-242,underlying data,dane zrodlowe,1.3
-243,RAM slot,gniazdo RAM,1.3
-244,heterogeneity,niejednorodnosc,1.3
-245,layer,warstwa,1.3
-246,publisher,wydawca,1.3
-247,seal,plomba,1.3
-248,if applicable,jesli dotyczy,1.3
-249,CPU socket,gniazdo procesora,1.3
-250,(to) encounter,napotykac,1.3
-251,inventive,pomyslowy,1.3
-252,interchangeable,wymienny/zamienny,1.3
-253,disclaimer,zrzeczenie sie odpowiedzialnosci,1.3
-254,meaningful,znaczacy,1.3
-255,tangible assets,aktywa rzeczowe/ materialne,1.3
-256,obstacle,przeszkoda,1.3
-257,copper,miedz,1.3
-258,function key,klawisz funkcyjny,1.3
-259,increase in revenue,wzrost przychodu,1.3
-260,capability,mozliwosc/zdolnosc,1.3
-261,click-through,klikalnosc,1.3
+,ENG,POL,weights
+0,several,kilka,0.5
+1,succinct,zwiezly,0.5
+2,although,aczkolwiek,0.5
+3,(to) apply,odnosic sie/miec zastosowanie,0.5796699999999999
+4,encryption,szyfrowanie,0.6369999999999999
+5,time-variant,zmienny w czasie,0.7
+6,latency,zwloka/opoznienie,0.7
+7,data retrievial,wyszukiwanie danych,0.7
+8,legacy data,dane historyczne,0.7
+9,(to) harness,ujarzmic/okielznac,0.7
+10,visually appealing,atrakcyjny wizualnie,0.7
+11,(to) state,okreslic/oglaszac,0.7
+12,accidental power outage,nagla przerwa w dostawie pradu,0.7
+13,(to) enable,umozliwiac,0.7
+14,(to) leverage customer data,wykorzystac dane o klientach,0.8281
+15,ownership rights,prawa wlasnosci,0.91
+16,flow chart,schemat blokowy,0.91
+17,(to) prevent,zapobiec/uniemozliwiac/powstrzymywac,0.91
+18,debatable issue,kwestia sporna,0.91
+19,shopping cart,wozek sklepowy/ koszyk na zakupy,1.0
+20,(to) perform task,wykonywac zadanie,1.0
+21,knowledge extraction,wydobywanie wiedzy,1.0
+22,(to) tackle challenge,podjac wyzwanie,1.0
+23,node,wezel,1.0
+24,internal hard disk,dysk twardy wewnetrzny,1.0
+25,in alignment with,w zgodzie z,1.0
+26,duo-core CPU,procesor dwurdzeniowy,1.0
+27,(to) conduct analysis,przeprowadzic analize,1.0
+28,accurate,dokladny,1.0
+29,sound card,karta dzwiekowa,1.0
+30,power connector,zlacze zasilania,1.0
+31,legally binding agreement,umowa wiazaca prawnie,1.0
+32,time-consuming,czasochlonny,1.0
+33,(to) provide,zapewniac/dostarczac,1.0
+34,accesible remotely,dostepny zdalnie,1.0
+35,redundancy,nadmiarowosc/redundancja,1.0
+36,expression,wyrazenie,1.0
+37,meaningless,bez znaczenia,1.0
+38,distributed,rozproszone,1.0
+39,productive,produktywny/wydajny,1.0
+40,network card,karta sieciowa,1.0
+41,(to be) intended ,byc przeznaczonym,1.0
+42,warranty,gwarancja,1.0
+43,crucial,istotny,1.0
+44,core,rdzen,1.0
+45,constraint/s,ograniczenie/wiezy,1.0
+46,retrieval of information,wyszukiwanie informacji,1.0
+47,velocity,predkosc,1.0
+48,forecast,prognoza,1.0
+49,in current use,obecnie uzywany,1.0
+50,(to) evaluate,oceniac,1.0
+51,volatile memory,ulotna pamiec,1.0
+52,fault-tolerant,odporny na bledy,1.0
+53,inventory menagement,zarzadzanie zapasami,1.0
+54,(to) comply with restrictions,stosowac sie do ograniczen,1.0
+55,(to) spot,zauwazyc/dostrzegac,1.0
+56,hyperplane,hiper plaszczyzna,1.0
+57,visionary,wizjoner,1.0
+58,goodwill,wartosc firmy,1.0
+59,intangible,niematerialny,1.0
+60,umbrella term,szerokie pojecie/ pojecie zbiorcze,1.0
+61,knowladge discovery,odkrywanie wiedzy,1.0
+62,trusthworthiness,wiarygodnosc,1.0
+63,explanatory variable,zmienna objasniajaca,1.0
+64,tabular database,tabelaryczna baza danych,1.0
+65,invalid data,nieprawidlowe dane,1.0
+66,differential analysis,analiza roznicowa,1.0
+67,explicit,przejrzysty,1.0
+68,variety,roznorodnosc,1.0
+69,spurious pattern,falszywy wzorzec,1.0
+70,terminal node,wezel koncowy,1.0
+71,slightly,nieco,1.0
+72,portable,przenosny,1.0
+73,to sum up,podsumowujac,1.0
+74,principle,zasada,1.0
+75,reference,odwolanie,1.0
+76,(to) overcome issue,rozwiazac problem,1.0
+77,(to) permit,zezwalac,1.0
+78,quad-core CPU,czterordzeniowy procesor,1.0
+79,command key,klawisz polecenia,1.0
+80,vendor,dostawca,1.0
+81,suite,pakiet,1.0
+82,periodical,okresowy,1.0
+83,inherent,nieodlaczny,1.0
+84,field,pole,1.0
+85,scorecard,karta wynikow,1.0
+86,power cord,kabel zasilajacy,1.0
+87,(to) reveal,wyjawic/ujawnic/odslaniac,1.0
+88,validation rule,regula poprawnosci,1.0
+89,volume,wolumen,1.0
+90,register,rejestr,1.0
+91,surrogate key,klucz sztuczny,1.0
+92,surge,przyplyw/fala,1.0
+93,socket,gniazdo,1.0
+94,significant,istotny,1.0
+95,execution time,czas wykonania,1.0
+96,fair use,dozwolony uzytek,1.0
+97,tangible benefit,wymierna korzysc,1.0
+98,track,sciezka,1.0
+99,(to) convert,przeksztalcic/konwertowac,1.0
+100,(to) obtain,otrzymac/uzyskac,1.0
+101,solid state drive,naped SSD,1.0
+102,performance,wydajnosc,1.0
+103,advance,postep,1.0
+104,resources,zasoby,1.0
+105,whereas,podczas gdy,1.0
+106,concurrent user,wspoluzytkownik,1.0
+107,(to) encrypt,zaszyfrowac,1.0
+108,fragmented,rozdrobniony,1.0
+109,(to) encompass,obejmowac,1.0
+110,archivied data,dane zarchiwizowane,1.0
+111,disparate data,zroznicowane dane,1.0
+112,(to be) equipped,byc wyposazonym,1.0
+113,future gain,przyszly zysk,1.0
+114,(to) alter,zmieniac,1.0
+115,descriptive,opisowy,1.0
+116,maintenance,utrzymanie,1.0
+117,(to) decipher,rozszyfrowac/odcyfrowac,1.0
+118,data storage device,urzadzenie do przechowywania danych,1.0
+119,restriction,ograniczenie,1.0
+120,(to) meet the need,zaspokoic potrzebe,1.0
+121,driver,sterownik,1.0
+122,limitation of liability,ograniczenie odpowiedzialnosci,1.0
+123,(to) grant,przyznawac/udzielac,1.0
+124,(to) lease,wydzierdzawic,1.0
+125,consistent,spojny,1.0
+126,(to) offload,odciazac,1.0
+127,assets,aktywa,1.0
+128,widespread,rozpowszechnione,1.0
+129,raw data,surowe dane,1.0
+130,database designer,projektant baz danych,1.0
+131,(to) grant permission,udzielic zezwolenia,1.0
+132,are concerned,jesli chodzi o,1.0
+133,fraud,oszustwo,1.0
+134,computer hardware,sprzet komputerowy,1.0
+135,distributed processing,przetwarzanie rozproszone,1.0
+136,efficient,wydajny/sprawny/efektywny,1.0
+137,(to) put emphasis,klasc nacisk,1.0
+138,(to) replicate,powielac/replikowac,1.0
+139,(to) operate,obslugiwac,1.0
+140,converging paths,zbiegajace sie sciezki,1.0
+141,accelerated,przyspieszony,1.0
+142,query workload,obciazenie wskutek wykonywana zapytania,1.0
+143,(to) detect,wykrywac,1.0
+144,(to) restore,przywracac,1.0
+145,(to) rewrite,ponownie zapisac,1.0
+146,complementary,uzupelniajacy,1.0
+147,(to) transform,przeksztalcic,1.0
+148,circuit,obwod,1.0
+149,complex,zlozony,1.0
+150,database design,projekt bazy danych,1.0
+151,computer case,obudowa komputera,1.0
+152,attachment,zalacznik,1.0
+153,data warehouse,hurtownia danych,1.0
+154,execution,wykonanie,1.0
+155,(to) spin,obracac,1.0
+156,critical,krytyczny/kluczowy,1.0
+157,pivot table,tabela przestawna,1.0
+158,(to) clarify,wyjasniac/doprecyzowac,1.0
+159,(to) resolve,rozkladac,1.0
+160,initial exploration,wstepna ekploracja,1.0
+161,spreadsheet,arkusz kalkulacyjny,1.0
+162,veracity,wiarygodnosc,1.0
+163,(to) evolve,rozwijac/ewoluowac,1.0
+164,wire,przewod,1.0
+165,consistency,spojnosc,1.0
+166,service,usluga,1.0
+167,router,router,1.0
+168,(to) route,skierowac,1.0
+169,conduct of business,prowadzenie biznesu,1.0
+170,confidentiality,poufnosc,1.0
+171,boot,rozruch,1.0
+172,backup batery,bateria podtrzymujaca,1.0
+173,computation,obliczenie,1.0
+174,disparate,rozne,1.0
+175,(to) launch,uruchamiac,1.0
+176,assumption,zalozenie,1.0
+177,connector,zlacze,1.0
+178,at once,od razu,1.0
+179,(to) network,polaczyc w siec,1.0
+180,concurrent access,rownoczesny dostep,1.0
+181,computer software,oprogramowanie komputerowe,1.0
+182,collinear,wspolliniowe,1.0
+183,data recovery,odzyskiwanie danych,1.0
+184,criterion variable,zmienna kryterialna,1.0
+185,positioning,pozycjonowanie,1.0
+186,archivial data,dane archiwalne,1.0
+187,deadlock,zakleszczenie/blokada wzajemna/zastoj,1.0
+188,expansion,rozszerzenie,1.1829999999999998
+189,graphics card,karta graficzna,1.1829999999999998
+190,(to) capture,pojmac/pojac/przychwytywac/zdobywac,1.1829999999999998
+191,copyright infringement,naruszenie praw autorskich,1.183
+192,internal node,wezel wewnetrzny,1.3
+193,(to) intervene,ingerowac,1.3
+194,RAM slot,gniazdo RAM,1.3
+195,pattern,wzorzec,1.3
+196,heterogeneity,niejednorodnosc,1.3
+197,obstacle,przeszkoda,1.3
+198,refinement,udoskonalenie,1.3
+199,forecasting,prognozowanie,1.3
+200,fan,wentylator/wiatraczek,1.3
+201,function key,klawisz funkcyjny,1.3
+202,instance,instancja,1.3
+203,enhancement,poprawa/zwiekszenie,1.3
+204,quantitative modelling,modelowanie ilosciowe,1.3
+205,executive (noun),kierownik/wykonawca,1.3
+206,interchangeable,wymienny/zamienny,1.3
+207,outcome,wynik/rezultat,1.3
+208,(to) involve,dotyczyc/ objac,1.3
+209,(to) process,przetwarzac,1.3
+210,copper,miedz,1.3
+211,underlying data,dane zrodlowe,1.3
+212,(to) make up,tworzyc cos,1.3
+213,(to) fetch,pobierac,1.3
+214,bar code,kod kreskowy,1.3
+215,increase in revenue,wzrost przychodu,1.3
+216,slot,gniazdo,1.3
+217,(to) encounter,napotykac,1.3
+218,storage capacity,pojemnosc pamieci,1.3
+219,guideline,wytyczna,1.3
+220,subject-oriented,tematyczny,1.3
+221,layer,warstwa,1.3
+222,(to) accelerate,przyspieszac,1.3
+223,hub,koncentrator,1.3
+224,meaningful,znaczacy,1.3
+225,disclaimer,zrzeczenie sie odpowiedzialnosci,1.3
+226,(to) maintain,utrzymywac,1.3
+227,alteration,zmiana,1.3
+228,interrelated,wzajemnie powiazany,1.3
+229,(to) execute,uruchamiac/wykonywac,1.3
+230,parallel batch procesing,rownolegle przetwarzanie wsadowe,1.3
+231,inventive,pomyslowy,1.3
+232,datapath,sciezka danych,1.3
+233,inconsistency,niespojnosc,1.3
+234,(to) disable,wylaczac/blokowac/uniemozliwic,1.3
+235,text mining,eksploracja tekstu,1.3
+236,(to) decrypt,rozszyfrowac,1.3
+237,measure of uncertainty,miara niepewnosci,1.3
+238,scope of network,zasieg sieci,1.3
+239,data validation,sprawdzenie poprawnosci danych,1.3
+240,single core CPU,jednordzeniowy procesor,1.3
+241,non-volatile memory,nieulotna pamiec,1.3
+242,(to) guesstimate,szacowac,1.3
+243,row,wiersz,1.3
+244,(to) terminate,zakonczyc/przerwac,1.3
+245,tangible assets,aktywa rzeczowe/ materialne,1.3
+246,evaluation,ocena,1.3
+247,click-through,klikalnosc,1.3
+248,CPU socket,gniazdo procesora,1.3
+249,tablespace,obszar tabeli,1.3
+250,challenger,pretendent,1.3
+251,accuracy,dokladnosc,1.3
+252,if applicable,jesli dotyczy,1.3
+253,capability,mozliwosc/zdolnosc,1.3
+254,hard disk drive,naped twardego dysku,1.3
+255,CD drive,naped CD,1.3
+256,external hard disk,twardy dysk zewnetrzny,1.3
+257,pattern recognition,rozpoznywanie wzorcow,1.3
+258,seal,plomba,1.3
+259,publisher,wydawca,1.3
+260,intangible assets,aktywa niematerialne,1.3
+261,(to) mimic,nasladowac,1.3
+262,batch processing,przetwarzanie wsadowe,1.3
+263,(to) go beyond,wykraczac poza,1.3
+264,disruption,zaklocenie,1.3
