@@ -6,11 +6,27 @@ warnings.filterwarnings('ignore')
 
 df = pd.read_csv("dictionary.csv", index_col=0)
 
-print("Hello in English learning app !")
-print("-------------------------------")
-print("Type 'exit' for correct question to save and exit the game")
-print("-------------------------------")
-print("Let's start the game !!", end="\n\n")
+
+def hello_user():
+    print("Hello in English learning app !")
+    print("-------------------------------")
+    print("Type 'exit' for correct question to save and exit the game")
+    print("-------------------------------")
+    print("Let's start the game !!", end="\n\n")
+
+
+def print_top_10():
+    global df
+    print("\nThis is a list of 10 hardest words : ")
+    print(df[["ENG", "POL"]].head(10))
+
+
+def add_translation(eng_word, pol_word):
+    global df
+    weight = df.weights.min()
+    new_row = {"ENG": eng_word, "POL": pol_word, "weights": weight}
+    df = df.append(new_row, ignore_index=True)
+    df.sort_values(by="weights").reset_index(drop=True).to_csv("dictionary.csv")
 
 
 def sort_df_by_weight():
@@ -31,6 +47,7 @@ def check_func(idx):
         sort_df_by_weight()
     elif answer == "EXIT":
         df.to_csv("dictionary.csv")
+        print_top_10()
         sys.exit()
     print()
 
@@ -40,7 +57,7 @@ def eng_pol(number_of_words=0):
     percent_of_words = 0.2
     if number_of_words == 1:
         idx = random.randint(0, int(round(df.shape[0] * percent_of_words)))
-        eng_word = df.ANG[idx]
+        eng_word = df.ENG[idx]
         pol_word = df.POL[idx]
         print(eng_word, end=" - ")
         if input():
@@ -50,7 +67,7 @@ def eng_pol(number_of_words=0):
     else:
         while True:
             idx = random.randint(0, int(round(df.shape[0] * percent_of_words)))
-            eng_word = df.ANG[idx]
+            eng_word = df.ENG[idx]
             pol_word = df.POL[idx]
             print(eng_word, end=" - ")
             if input():
@@ -62,7 +79,7 @@ def pol_eng(number_of_words=0):
     percent_of_words = 0.2
     if number_of_words == 1:
         idx = random.randint(0, int(round(df.shape[0] * percent_of_words)))
-        eng_word = df.ANG[idx]
+        eng_word = df.ENG[idx]
         pol_word = df.POL[idx]
         print(pol_word, end=" - ")
         if input():
@@ -71,7 +88,7 @@ def pol_eng(number_of_words=0):
     else:
         while True:
             idx = random.randint(0, int(round(df.shape[0] * percent_of_words)))
-            eng_word = df.ANG[idx]
+            eng_word = df.ENG[idx]
             pol_word = df.POL[idx]
             print(pol_word, end=" - ")
             if input():
@@ -80,6 +97,7 @@ def pol_eng(number_of_words=0):
 
 
 def random_choice():
+    hello_user()
     while True:
         if random.randint(0, 1) == 0:
             eng_pol(1)
