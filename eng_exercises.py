@@ -21,9 +21,8 @@ def print_top_10():
     print(df[["ENG", "POL"]].head(10))
 
 
-def add_translation(eng_word, pol_word):
+def add_translation(eng_word, pol_word, weight=df.weights.min()):
     global df
-    weight = df.weights.min()
     new_row = {"ENG": eng_word, "POL": pol_word, "weights": weight}
     df = df.append(new_row, ignore_index=True)
     df.sort_values(by="weights").reset_index(drop=True).to_csv("dictionary.csv")
@@ -39,7 +38,7 @@ def check_func(idx):
     yes_rate = 1.3
     no_rate = 0.7
     answer = input("Correct ? [Y/N] ").upper()
-    if answer == "Y":
+    if answer != "N" and answer != "EXIT":
         df.weights[idx] *= yes_rate
         sort_df_by_weight()
     elif answer == "N":
