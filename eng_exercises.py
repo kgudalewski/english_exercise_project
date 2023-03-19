@@ -21,11 +21,19 @@ def print_top_10():
     print(df[["ENG", "POL"]].head(10))
 
 
+def normalize_weights():
+    global df
+    df.weights = (df.weights - df.weights.min() + 0.2) / (df.weights.max() - df.weights.min())
+    # df.weights[0] = df.weights[1]
+
+
 def add_translation(eng_word, pol_word, weight=df.weights.min()):
     global df
     new_row = {"ENG": eng_word, "POL": pol_word, "weights": weight}
     df = df.append(new_row, ignore_index=True)
-    df.sort_values(by="weights").reset_index(drop=True).to_csv("dictionary.csv")
+    sort_df_by_weight()
+    normalize_weights()
+    df.to_csv("dictionary.csv")
 
 
 def sort_df_by_weight():
@@ -45,6 +53,8 @@ def check_func(idx):
         df.weights[idx] *= no_rate
         sort_df_by_weight()
     elif answer == "EXIT":
+        sort_df_by_weight()
+        normalize_weights()
         df.to_csv("dictionary.csv")
         print_top_10()
         sys.exit()
