@@ -34,6 +34,7 @@ def add_translation(eng_word, pol_word, weight=df.weights.min()):
     sort_df_by_weight()
     normalize_weights()
     df.to_csv("dictionary.csv")
+    print(eng_word, "- added")
 
 
 def sort_df_by_weight():
