@@ -3,24 +3,27 @@ from kivymd.uix.screenmanager import ScreenManager
 from kivymd.uix.screen import Screen
 from kivy.lang import Builder
 from kivymd.uix.dialog import MDDialog
-from kivymd.uix.button import MDRectangleFlatButton, MDFlatButton
+from kivymd.uix.button import MDFlatButton
 from kivy.core.window import Window
 
 Window.size = (400, 800)
 
 
 class WordsApp(MDApp):
-
-    def build(self):
-        self.theme_cls.theme_style = "Dark"
-        self.theme_cls.primary_palette = "Blue"
-        screen = Builder.load_string(screen_helper)
-        return screen
-
     word = "słowo do tłumaczenia"
     blurr_translation = "? ? ? ? ? ? ? ?"
     translation = "tłumaczenie"
     user_translation = "tłumaczenie użytkownika"
+
+    def build(self):
+        self.theme_cls.theme_style = "Dark"
+        self.theme_cls.primary_palette = "Blue"
+        self.root = Builder.load_string(screen_helper)
+        return self.root
+
+    def save_user_translation(self, obj):
+        self.user_translation = self.root.get_screen('game').ids.user_translation.text
+        print(self.user_translation)
 
 
 screen_helper = """
@@ -31,9 +34,10 @@ ScreenManager:
     EvaluationScreen:
     AddScreen:
     RemoveScreen:
-
+    
 <MenuScreen>
     name: 'menu'
+    id: menu
     MDLabel:
         text: "Learning App"
         halign: "center" 
@@ -68,6 +72,7 @@ ScreenManager:
         
 <GameScreen>
     name: 'game'
+    id: game
     MDRectangleFlatButton:
         text: 'End game'
         pos_hint: {'center_x':0.5,'center_y':0.1}
@@ -75,14 +80,14 @@ ScreenManager:
         size_hint: None, None
         width: root.width*0.9
     MDRectangleFlatButton:
-        text: root.word
+        text: app.word
         pos_hint: {'center_x':0.5,'center_y':0.9}
         size_hint: None, None
         width: root.width*0.9
     MDRectangleFlatButton:
         id: translation
         name: 'translation'
-        text: root.blurr_translation
+        text: app.blurr_translation
         pos_hint: {'center_x':0.5,'center_y':0.8}
         size_hint: None, None
         width: root.width*0.9
@@ -102,22 +107,24 @@ ScreenManager:
         pos_hint: {'center_x':0.5,'center_y':0.6}
         size_hint: None, None
         width: root.width*0.9
+        on_press: app.save_user_translation(self)
         on_release: root.check_action(self)
         
 <EvaluationScreen>
     name: 'evaluation'
+    id: evaluation
     MDRectangleFlatButton:
-        text: root.word
+        text: app.word
         pos_hint: {'center_x':0.5,'center_y':0.9}
         size_hint: None, None
         width: root.width*0.9
     MDRectangleFlatButton:
-        text: root.translation
+        text: app.translation
         pos_hint: {'center_x':0.5,'center_y':0.8}
         size_hint: None, None
         width: root.width*0.9
     MDRectangleFlatButton:
-        text: root.user_translation
+        text: app.user_translation
         pos_hint: {'center_x':0.5,'center_y':0.7}
         size_hint: None, None
         width: root.width*0.9
@@ -142,6 +149,7 @@ ScreenManager:
         
 <AddScreen>
     name: 'add_word'
+    id: add
     MDTextField:
         id: text_field1
         hint_text: "Enter english word"
@@ -161,8 +169,7 @@ ScreenManager:
         pos_hint: {'center_x':0.75,'center_y':0.1}
         size_hint: None, None
         width: root.width*0.4
-        on_release: root.add_confirm(self)
-        on_release: root.clear_txt(self)
+        on_release: root.add_btn_action(self)
     MDRectangleFlatButton:
         text: 'Back'
         pos_hint: {'center_x':0.25,'center_y':0.1}
@@ -172,6 +179,7 @@ ScreenManager:
         
 <RemoveScreen>
     name: 'remove_word'
+    id: remove
     MDLabel:
         text: "remove"
         halign: "center" 
@@ -190,10 +198,6 @@ class MenuScreen(Screen):
 
 
 class GameScreen(Screen):
-    word = WordsApp.word
-    blurr_translation = WordsApp.blurr_translation
-    translation = WordsApp.translation
-    user_translation = WordsApp.user_translation
 
     def end_game_dialog(self, obj):
         self.dialog = MDDialog(title='Are you sure ?',
@@ -210,7 +214,6 @@ class GameScreen(Screen):
         self.dialog.dismiss()
 
     def check_action(self, obj):
-        WordsApp.user_translation = self.ids.user_translation.text
         self.ids.user_translation.text = ""
         self.manager.current = 'evaluation'
 
@@ -218,16 +221,9 @@ class GameScreen(Screen):
 
 
 class EvaluationScreen(Screen):
-    word = WordsApp.word
-    translation = WordsApp.translation
-    # user_translation = Screen.get_screen('game').ids.user_translation.text
-    user_translation = WordsApp.user_translation
-
     def yes_action(self, obj):
         self.manager.current = 'game'
         # TODO ulpoad weight
-
-    # TODO dialog confirmation window
 
     def no_action(self, obj):
         self.manager.current = 'game'
@@ -237,15 +233,14 @@ class EvaluationScreen(Screen):
 
 
 class AddScreen(Screen):
-    def clear_txt(self, obj):
-        self.ids.text_field1.text = ""
-        self.ids.text_field2.text = ""
-
-    def add_confirm(self, obj):
+    def add_btn_action(self, obj):
         self.dialog = MDDialog(title='Translation added !',
+                               text=f"{self.ids.text_field1.text} - {self.ids.text_field2.text}",
                                buttons=[MDFlatButton(text="Close", on_release=self.close_dialog)]
                                )
         self.dialog.open()
+        self.ids.text_field1.text = ""
+        self.ids.text_field2.text = ""
 
     def close_dialog(self, obj):
         self.dialog.dismiss()
