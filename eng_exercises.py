@@ -4,7 +4,7 @@ import warnings
 import sys
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv("dictionary.csv", index_col=0)
+df = pd.read_csv("https://raw.githubusercontent.com/kgudalewski/english_exercise_project/main/dictionary.csv", index_col=0)
 
 
 def hello_user():
