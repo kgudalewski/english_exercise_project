@@ -180,16 +180,18 @@ ScreenManager:
 <RemoveScreen>
     name: 'remove_word'
     id: remove
-    MDLabel:
-        text: "remove"
-        halign: "center" 
-        size_hint: (1,1.4)
-        color: app.theme_cls.primary_color
-        font_style: "H4"
     MDRectangleFlatButton:
         text: 'Back'
-        pos_hint: {'center_x':0.5,'center_y':0.1}
+        pos_hint: {'center_x':0.25,'center_y':0.1}
         on_press: root.manager.current = 'menu'
+        size_hint: None, None
+        width: root.width*0.4
+    MDRectangleFlatButton:
+        text: 'Remove'
+        pos_hint: {'center_x':0.75,'center_y':0.1}
+        size_hint: None, None
+        width: root.width*0.4
+        on_press: root.remove_btn_action(self)
 """
 
 
@@ -249,6 +251,16 @@ class AddScreen(Screen):
 
 
 class RemoveScreen(Screen):
+    def remove_btn_action(self, obj):
+        self.dialog = MDDialog(title='Translation deleted !',
+                               text="eng_word - pol_word",
+                               buttons=[MDFlatButton(text="Close", on_release=self.close_dialog)]
+                               )
+        self.dialog.open()
+
+    def close_dialog(self, obj):
+        self.dialog.dismiss()
+
     pass
 
 
