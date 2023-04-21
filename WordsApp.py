@@ -6,24 +6,25 @@ from kivymd.uix.dialog import MDDialog
 from kivymd.uix.button import MDFlatButton, MDRectangleFlatButton
 from kivymd.uix.datatables import MDDataTable
 from kivy.core.window import Window
+import pandas as pd
+import random
 
 Window.size = (400, 800)
 
 
 class WordsApp(MDApp):
-    word = "słowo do tłumaczenia"
+    df = pd.read_csv("dictionary.csv",index_col=0)
+    percent_of_words = 0.2
+    idx = random.randint(0, int(round(df.shape[0] * percent_of_words)))
+    word = df.ENG[idx]
     blurr_translation = "? ? ? ? ? ? ? ?"
-    translation = "tłumaczenie"
-    user_translation = "tłumaczenie użytkownika"
+    translation = df.POL[idx]
 
     def build(self):
         self.theme_cls.theme_style = "Dark"
         self.theme_cls.primary_palette = "Blue"
         self.root = Builder.load_string(screen_helper)
         return self.root
-
-    def save_user_translation(self, obj):
-        self.user_translation = self.root.get_screen('game').ids.user_translation.text
 
 
 screen_helper = """
@@ -81,6 +82,7 @@ ScreenManager:
         size_hint: 0.9, None
         on_press: root.end_game_dialog(self)
     MDRectangleFlatButton:
+        id: word
         text: app.word
         pos_hint: {'center_x':0.5,'center_y':0.9}
         size_hint: 0.9, None
@@ -105,7 +107,6 @@ ScreenManager:
         text: "CHECK"
         pos_hint: {'center_x':0.5,'center_y':0.6}
         size_hint: 0.9, None
-        on_press: app.save_user_translation(self)
         on_release: root.check_action(self)
         
 <AddScreen>
@@ -161,7 +162,7 @@ class GameScreen(Screen):
 
     def end_game_dialog(self, obj):
         self.dialog = MDDialog(title='Are you sure ?',
-                               buttons=[MDFlatButton(text="Yes, end game", on_release=self.menu_switch),
+                               buttons=[MDFlatButton(text="Yes, end game", on_release=self.menu_switch_and_save),
                                         MDFlatButton(text='Cancel', on_release=self.close_dialog)]
                                )
         self.dialog.open()
@@ -169,10 +170,19 @@ class GameScreen(Screen):
     def close_dialog(self, obj):
         self.dialog.dismiss()
 
-    def menu_switch(self, obj):
+    def menu_switch_and_save(self, obj):
+        self.normalize_weights()
+        WordsApp.df.to_csv("dictionary.csv")
         self.manager.current = 'menu'
         self.manager.transition.direction = "right"
         self.dialog.dismiss()
+
+    def sort_weights(self):
+        WordsApp.df = WordsApp.df.sort_values(by="weights").reset_index(drop=True)
+
+    def normalize_weights(self):
+        WordsApp.df.weights = (WordsApp.df.weights - WordsApp.df.weights.min() + 0.2) \
+                              / (WordsApp.df.weights.max() - WordsApp.df.weights.min())
 
     def check_action(self, obj):
         self.ids.translation.text = WordsApp.translation
@@ -210,6 +220,12 @@ class GameScreen(Screen):
         self.remove_widget(self.correct_btn)
         self.remove_widget(self.incorrect_btn)
 
+        yes_rate = 1.3
+        WordsApp.df.weights[WordsApp.idx] *= yes_rate
+
+        self.sort_weights()
+        self.new_word()
+
         self.add_widget(self.ids.check_btn)
         pass
 
@@ -220,8 +236,21 @@ class GameScreen(Screen):
         self.remove_widget(self.correct_btn)
         self.remove_widget(self.incorrect_btn)
 
+        no_rate = 1.3
+        WordsApp.df.weights[WordsApp.idx] *= no_rate
+
+        self.sort_weights()
+        self.new_word()
+
         self.add_widget(self.ids.check_btn)
         pass
+
+    def new_word(self):
+        percent_of_words = 0.2
+        WordsApp.idx = random.randint(0, int(round(WordsApp.df.shape[0] * percent_of_words)))
+        WordsApp.translation = WordsApp.df.POL[WordsApp.idx]
+        self.ids.word.text = WordsApp.df.ENG[WordsApp.idx]
+        self.ids.translation.text = WordsApp.blurr_translation
 
     pass
 
@@ -255,11 +284,5 @@ class RemoveScreen(Screen):
 
     pass
 
-
-sm = ScreenManager()
-sm.add_widget(MenuScreen(name="menu"))
-sm.add_widget(GameScreen(name="game"))
-sm.add_widget(AddScreen(name="add_word"))
-sm.add_widget(RemoveScreen(name="remove_word"))
 
 WordsApp().run()
