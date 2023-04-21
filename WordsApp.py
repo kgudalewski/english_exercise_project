@@ -24,7 +24,6 @@ class WordsApp(MDApp):
 
     def save_user_translation(self, obj):
         self.user_translation = self.root.get_screen('game').ids.user_translation.text
-        print(self.user_translation)
 
 
 screen_helper = """
@@ -47,6 +46,7 @@ ScreenManager:
     MDFillRoundFlatIconButton:
         text: "PLAY"
         pos_hint: {'center_x':0.5,'center_y':0.5}
+        size_hint: 0.5,None
         icon: "play"
         font_size: "20"
         theme_text_color: "Custom"
@@ -55,7 +55,6 @@ ScreenManager:
         icon_color: "black"
         on_press: root.manager.current = 'game'
         on_press: root.manager.transition.direction = 'left'
-        size_hint: 0.5,None
     MDRectangleFlatButton:
         text: "Add words"
         pos_hint: {'center_x':0.5,'center_y':0.4}
@@ -69,6 +68,7 @@ ScreenManager:
         font_size: "12"
         on_press: root.manager.current = 'remove_word'
         on_press: root.manager.transition.direction = 'left'
+        on_release: root.press_action(self)
         size_hint: 0.5,None
         
         
@@ -107,7 +107,6 @@ ScreenManager:
         size_hint: 0.9, None
         on_press: app.save_user_translation(self)
         on_release: root.check_action(self)
-        
         
 <AddScreen>
     name: 'add_word'
@@ -178,8 +177,11 @@ class GameScreen(Screen):
     def check_action(self, obj):
         self.ids.translation.text = WordsApp.translation
         self.ids.translation.size_hint = (0.9, None)
-        correct_btn = MDRectangleFlatButton(
-            id='correct_btn',
+
+        self.remove_widget(self.ids.check_btn)
+
+        self.correct_btn = MDRectangleFlatButton(
+            id="correct_btn",
             text="Correct",
             pos_hint={'center_x': 0.75, 'center_y': 0.6},
             size_hint=(0.4, None),
@@ -188,8 +190,8 @@ class GameScreen(Screen):
             on_release=self.correct_action
         )
 
-        incorrect_btn = MDRectangleFlatButton(
-            id='incorrect_btn',
+        self.incorrect_btn = MDRectangleFlatButton(
+            id="incorrect_btn",
             text="Incorrect",
             pos_hint={'center_x': 0.25, 'center_y': 0.6},
             size_hint=(0.4, None),
@@ -197,22 +199,17 @@ class GameScreen(Screen):
             line_color="red",
             on_release=self.incorrect_action
         )
-        self.remove_widget(self.ids.check_btn)
-        self.add_widget(correct_btn)
-        self.add_widget(incorrect_btn)
+
+        self.add_widget(self.correct_btn)
+        self.add_widget(self.incorrect_btn)
 
     def correct_action(self, obj):
         self.ids.user_translation.text = ''
         self.ids.translation.text = WordsApp.blurr_translation
 
-        for child in self.children:
-            if child.id == 'correct_btn':
-                self.remove_widget(child)
-            if child.id == 'incorrect_btn':
-                self.remove_widget(child)
+        self.remove_widget(self.correct_btn)
+        self.remove_widget(self.incorrect_btn)
 
-        # self.remove_widget(self.children)
-        # self.remove_widget(self.children)
         self.add_widget(self.ids.check_btn)
         pass
 
@@ -220,14 +217,9 @@ class GameScreen(Screen):
         self.ids.user_translation.text = ''
         self.ids.translation.text = WordsApp.blurr_translation
 
-        for child in self.children:
-            if child.id == 'correct_btn':
-                self.remove_widget(child)
-            if child.id == 'incorrect_btn':
-                self.remove_widget(child)
+        self.remove_widget(self.correct_btn)
+        self.remove_widget(self.incorrect_btn)
 
-        # self.remove_widget(self.children)
-        # self.remove_widget(self.children)
         self.add_widget(self.ids.check_btn)
         pass
 
