@@ -3,7 +3,8 @@ from kivymd.uix.screenmanager import ScreenManager
 from kivymd.uix.screen import Screen
 from kivy.lang import Builder
 from kivymd.uix.dialog import MDDialog
-from kivymd.uix.button import MDFlatButton
+from kivymd.uix.button import MDFlatButton, MDRectangleFlatButton
+from kivymd.uix.datatables import MDDataTable
 from kivy.core.window import Window
 
 Window.size = (400, 800)
@@ -31,7 +32,6 @@ screen_helper = """
 ScreenManager:
     MenuScreen:
     GameScreen:
-    EvaluationScreen:
     AddScreen:
     RemoveScreen:
     
@@ -54,19 +54,21 @@ ScreenManager:
         theme_icon_color: "Custom"
         icon_color: "black"
         on_press: root.manager.current = 'game'
+        on_press: root.manager.transition.direction = 'left'
         size_hint: 0.5,None
-        
     MDRectangleFlatButton:
         text: "Add words"
         pos_hint: {'center_x':0.5,'center_y':0.4}
         font_size: "12"
         on_press: root.manager.current = 'add_word'
+        on_press: root.manager.transition.direction = 'left'
         size_hint: 0.5,None
     MDRectangleFlatButton:
         text: "Remove words"
         pos_hint: {'center_x':0.5,'center_y':0.3}
         font_size: "12"
         on_press: root.manager.current = 'remove_word'
+        on_press: root.manager.transition.direction = 'left'
         size_hint: 0.5,None
         
         
@@ -76,27 +78,24 @@ ScreenManager:
     MDRectangleFlatButton:
         text: 'End game'
         pos_hint: {'center_x':0.5,'center_y':0.1}
+        size_hint: 0.9, None
         on_press: root.end_game_dialog(self)
-        size_hint: None, None
-        width: root.width*0.9
     MDRectangleFlatButton:
         text: app.word
         pos_hint: {'center_x':0.5,'center_y':0.9}
-        size_hint: None, None
-        width: root.width*0.9
+        size_hint: 0.9, None
     MDRectangleFlatButton:
         id: translation
         name: 'translation'
         text: app.blurr_translation
         pos_hint: {'center_x':0.5,'center_y':0.8}
-        size_hint: None, None
-        width: root.width*0.9
+        size_hint: 0.9, None
     MDTextField:
         id: user_translation
         hint_text: "Enter your translation"
         pos_hint: {'center_x':0.5,'center_y':0.7}
-        size_hint: None, None
-        width: root.width*0.9
+        size_hint: 0.9, None
+        halign: 'center'
         mode: "rectangle"
     MDFillRoundFlatButton:
         id: check_btn
@@ -105,47 +104,10 @@ ScreenManager:
         text_color: "black"
         text: "CHECK"
         pos_hint: {'center_x':0.5,'center_y':0.6}
-        size_hint: None, None
-        width: root.width*0.9
+        size_hint: 0.9, None
         on_press: app.save_user_translation(self)
         on_release: root.check_action(self)
         
-<EvaluationScreen>
-    name: 'evaluation'
-    id: evaluation
-    MDRectangleFlatButton:
-        text: app.word
-        pos_hint: {'center_x':0.5,'center_y':0.9}
-        size_hint: None, None
-        width: root.width*0.9
-    MDRectangleFlatButton:
-        text: app.translation
-        pos_hint: {'center_x':0.5,'center_y':0.8}
-        size_hint: None, None
-        width: root.width*0.9
-    MDRectangleFlatButton:
-        text: app.user_translation
-        pos_hint: {'center_x':0.5,'center_y':0.7}
-        size_hint: None, None
-        width: root.width*0.9
-    MDRectangleFlatButton:
-        id: yes
-        text: "Correct"
-        pos_hint: {'center_x':0.75,'center_y':0.6}
-        size_hint: None, None
-        width: root.width*0.4
-        text_color: "green"
-        line_color: "green"
-        on_release: root.yes_action(self)
-    MDRectangleFlatButton:
-        id: no
-        text: "Incorrect"
-        pos_hint: {'center_x':0.25,'center_y':0.6}
-        size_hint: None, None
-        width: root.width*0.4
-        text_color: "red"
-        line_color: "red"
-        on_release: root.no_action(self)
         
 <AddScreen>
     name: 'add_word'
@@ -154,28 +116,26 @@ ScreenManager:
         id: text_field1
         hint_text: "Enter english word"
         pos_hint: {'center_x':0.5,'center_y':0.7}
-        size_hint: None, None
-        width: root.width*0.9
+        size_hint: 0.9, None
         mode: "rectangle"
     MDTextField:
         id: text_field2
         hint_text: "Enter polish word"
         pos_hint: {'center_x':0.5,'center_y':0.6}
-        size_hint: None, None
-        width: root.width*0.9
+        size_hint: 0.9, None
         mode: "rectangle"
     MDRectangleFlatButton:
         text: 'Add'
         pos_hint: {'center_x':0.75,'center_y':0.1}
-        size_hint: None, None
-        width: root.width*0.4
-        on_release: root.add_btn_action(self)
+        size_hint: 0.4, None
+        on_press: root.add_btn_action(self)
     MDRectangleFlatButton:
         text: 'Back'
         pos_hint: {'center_x':0.25,'center_y':0.1}
+        size_hint: 0.4, None
         on_press: root.manager.current = 'menu'
-        size_hint: None, None
-        width: root.width*0.4
+        on_press: root.manager.transition.direction = 'right'
+        
         
 <RemoveScreen>
     name: 'remove_word'
@@ -183,14 +143,13 @@ ScreenManager:
     MDRectangleFlatButton:
         text: 'Back'
         pos_hint: {'center_x':0.25,'center_y':0.1}
+        size_hint: 0.4, None
         on_press: root.manager.current = 'menu'
-        size_hint: None, None
-        width: root.width*0.4
+        on_press: root.manager.transition.direction = 'right'
     MDRectangleFlatButton:
         text: 'Remove'
         pos_hint: {'center_x':0.75,'center_y':0.1}
-        size_hint: None, None
-        width: root.width*0.4
+        size_hint: 0.4, None
         on_press: root.remove_btn_action(self)
 """
 
@@ -213,23 +172,64 @@ class GameScreen(Screen):
 
     def menu_switch(self, obj):
         self.manager.current = 'menu'
+        self.manager.transition.direction = "right"
         self.dialog.dismiss()
 
     def check_action(self, obj):
-        self.ids.user_translation.text = ""
-        self.manager.current = 'evaluation'
+        self.ids.translation.text = WordsApp.translation
+        self.ids.translation.size_hint = (0.9, None)
+        correct_btn = MDRectangleFlatButton(
+            id='correct_btn',
+            text="Correct",
+            pos_hint={'center_x': 0.75, 'center_y': 0.6},
+            size_hint=(0.4, None),
+            text_color="green",
+            line_color="green",
+            on_release=self.correct_action
+        )
 
-    pass
+        incorrect_btn = MDRectangleFlatButton(
+            id='incorrect_btn',
+            text="Incorrect",
+            pos_hint={'center_x': 0.25, 'center_y': 0.6},
+            size_hint=(0.4, None),
+            text_color="red",
+            line_color="red",
+            on_release=self.incorrect_action
+        )
+        self.remove_widget(self.ids.check_btn)
+        self.add_widget(correct_btn)
+        self.add_widget(incorrect_btn)
 
+    def correct_action(self, obj):
+        self.ids.user_translation.text = ''
+        self.ids.translation.text = WordsApp.blurr_translation
 
-class EvaluationScreen(Screen):
-    def yes_action(self, obj):
-        self.manager.current = 'game'
-        # TODO ulpoad weight
+        for child in self.children:
+            if child.id == 'correct_btn':
+                self.remove_widget(child)
+            if child.id == 'incorrect_btn':
+                self.remove_widget(child)
 
-    def no_action(self, obj):
-        self.manager.current = 'game'
-        # TODO ulpoad weight
+        # self.remove_widget(self.children)
+        # self.remove_widget(self.children)
+        self.add_widget(self.ids.check_btn)
+        pass
+
+    def incorrect_action(self, obj):
+        self.ids.user_translation.text = ''
+        self.ids.translation.text = WordsApp.blurr_translation
+
+        for child in self.children:
+            if child.id == 'correct_btn':
+                self.remove_widget(child)
+            if child.id == 'incorrect_btn':
+                self.remove_widget(child)
+
+        # self.remove_widget(self.children)
+        # self.remove_widget(self.children)
+        self.add_widget(self.ids.check_btn)
+        pass
 
     pass
 
