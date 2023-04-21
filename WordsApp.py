@@ -248,8 +248,13 @@ class GameScreen(Screen):
     def new_word(self):
         percent_of_words = 0.2
         WordsApp.idx = random.randint(0, int(round(WordsApp.df.shape[0] * percent_of_words)))
-        WordsApp.translation = WordsApp.df.POL[WordsApp.idx]
-        self.ids.word.text = WordsApp.df.ENG[WordsApp.idx]
+
+        if random.randint(0, 1) == 0:
+            WordsApp.translation = WordsApp.df.POL[WordsApp.idx]
+            self.ids.word.text = WordsApp.df.ENG[WordsApp.idx]
+        else:
+            WordsApp.translation = WordsApp.df.ENG[WordsApp.idx]
+            self.ids.word.text = WordsApp.df.POL[WordsApp.idx]
         self.ids.translation.text = WordsApp.blurr_translation
 
     pass
