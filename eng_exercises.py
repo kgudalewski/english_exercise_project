@@ -4,8 +4,8 @@ import warnings
 import sys
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv("https://raw.githubusercontent.com/kgudalewski/english_exercise_project/main/dictionary.csv", index_col=0) # for game
-# df = pd.read_csv("dictionary.csv") # for add translation
+# df = pd.read_csv("https://raw.githubusercontent.com/kgudalewski/english_exercise_project/main/dictionary.csv", index_col=0) # for game
+df = pd.read_csv("dictionary.csv",index_col=0) # for add translation
 
 def hello_user():
     print("Hello in English learning app !")
@@ -116,4 +116,4 @@ def random_choice():
 
 
 if __name__ == "__main__":
-    random_choice()
+    print(df)
