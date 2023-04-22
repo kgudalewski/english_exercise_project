@@ -333,7 +333,7 @@ class RemoveScreen(Screen):
     def remove_btn_action(self, obj):
 
         #deleting
-        WordsApp.df = WordsApp.df.drop(index=self.manager.get_screen(name="menu").remove_list)
+        WordsApp.df = WordsApp.df.drop(index=self.manager.get_screen(name="menu").remove_list).reset_index(drop=True)
 
         WordsApp.df.to_csv("dictionary.csv")
 
