@@ -1,11 +1,9 @@
 from kivymd.app import MDApp
-from kivymd.uix.screenmanager import ScreenManager
 from kivymd.uix.screen import Screen
 from kivy.lang import Builder
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.button import MDFlatButton, MDRectangleFlatButton
 from kivymd.uix.datatables import MDDataTable
-from kivy.metrics import dp
 from kivy.core.window import Window
 import pandas as pd
 import random
@@ -172,7 +170,7 @@ class MenuScreen(Screen):
 
         )
         self.table.bind(on_check_press=self.create_list)
-
+        self.table.header.ids.check.bind(on_release=self.header_action)
         self.manager.get_screen(name="remove_word").add_widget(self.table)
 
     def create_list(self, obj, current_row):
@@ -182,6 +180,19 @@ class MenuScreen(Screen):
         else:
             self.remove_list.remove(idx)
         print(self.remove_list)
+
+
+# TODO make header and remove list working together
+    def header_action(self, obj):
+        # if obj.state == "down":
+        #     self.remove_list = WordsApp.df.index.values.tolist()
+        # elif obj.state == "normal":
+        #     self.remove_list = []
+        #
+        # print("header clicked")
+        # print(self.remove_list)
+        # print("header clicked")
+        pass
 
     pass
 
