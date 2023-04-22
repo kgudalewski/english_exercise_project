@@ -146,6 +146,7 @@ ScreenManager:
         size_hint: 0.4, None
         on_press: root.manager.current = 'menu'
         on_press: root.manager.transition.direction = 'right'
+        on_press: root.back_action(self)
     MDRectangleFlatButton:
         text: 'Remove'
         pos_hint: {'center_x':0.75,'center_y':0.1}
@@ -155,37 +156,32 @@ ScreenManager:
 
 
 class MenuScreen(Screen):
+    remove_list = []
+
     def remove_words_action(self, obj):
-        table = MDDataTable(
+        self.table = MDDataTable(
             check=True,
             pos_hint={"center_y": 0.575, "center_x": 0.5},
             size_hint=(0.9, 0.8),
-            rows_num=20,
+            rows_num=WordsApp.df.shape[0] + 1,
             column_data=[
                 ("ENG", 35),
                 ("POL", 30)
             ],
-            row_data=[
-                ("English", "angielski"),
-                ("Polish", "polski"),
-                ("at once", "od razu"),
-                ("concise", "zwiezly / tresciwy / fdgdfgdfgdfsg"),
-                ("English", "angielski"),
-                ("Polish", "polski"),
-                ("at once", "od razu"),
-                ("concise", "zwiezly / tresciwy"),
-                ("English", "angielski"),
-                ("Polish", "polski"),
-                ("at once", "od razu"),
-                ("concise", "zwiezly / tresciwy"),
-                ("English", "angielski"),
-                ("Polish", "polski"),
-                ("at once", "od razu"),
-                ("concise", "zwiezly / tresciwy")
-            ]
+            row_data=list(zip(WordsApp.df.ENG, WordsApp.df.POL))
 
         )
-        self.manager.get_screen(name="remove_word").add_widget(table)
+        self.table.bind(on_check_press=self.create_list)
+
+        self.manager.get_screen(name="remove_word").add_widget(self.table)
+
+    def create_list(self, obj, current_row):
+        idx = WordsApp.df.loc[WordsApp.df.ENG == current_row[0]].index[0]
+        if idx not in self.remove_list:
+            self.remove_list.append(idx)
+        else:
+            self.remove_list.remove(idx)
+        print(self.remove_list)
 
     pass
 
@@ -323,28 +319,27 @@ class AddScreen(Screen):
 
 class RemoveScreen(Screen):
 
-    # table = MDDataTable(
-    #     column_data=[
-    #         ("ENG",dp(30)),
-    #         ("POL", dp(30)),
-    #         ("Weights", dp(30))
-    #     ]
-    # )
-    # def add_table(self):
-    # self.add_widget(self.table)
-
     def remove_btn_action(self, obj):
-        self.dialog = MDDialog(title='Translation deleted !',
-                               text="eng_word - pol_word",
+
+        #deleting
+        WordsApp.df = WordsApp.df.drop(index=self.manager.get_screen(name="menu").remove_list)
+
+        WordsApp.df.to_csv("dictionary.csv")
+
+        self.dialog = MDDialog(title='Translations deleted !',
                                buttons=[MDFlatButton(text="Close", on_release=self.close_dialog)]
                                )
-        # self.add_widget(self.table)
+        self.manager.current = 'menu'
+        self.manager.transition.direction = 'right'
+        self.manager.get_screen(name='menu').remove_list = []
         self.dialog.open()
+
 
     def close_dialog(self, obj):
         self.dialog.dismiss()
 
-    pass
+    def back_action(self, obj):
+        self.manager.get_screen(name='menu').remove_list = []
 
 
 WordsApp().run()
