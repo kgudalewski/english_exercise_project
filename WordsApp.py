@@ -5,6 +5,7 @@ from kivy.lang import Builder
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.button import MDFlatButton, MDRectangleFlatButton
 from kivymd.uix.datatables import MDDataTable
+from kivy.metrics import dp
 from kivy.core.window import Window
 import pandas as pd
 import random
@@ -69,9 +70,8 @@ ScreenManager:
         font_size: "12"
         on_press: root.manager.current = 'remove_word'
         on_press: root.manager.transition.direction = 'left'
-        on_release: root.press_action(self)
+        on_press: root.remove_words_action(self)
         size_hint: 0.5,None
-        
         
 <GameScreen>
     name: 'game'
@@ -155,6 +155,38 @@ ScreenManager:
 
 
 class MenuScreen(Screen):
+    def remove_words_action(self, obj):
+        table = MDDataTable(
+            check=True,
+            pos_hint={"center_y": 0.575, "center_x": 0.5},
+            size_hint=(0.9, 0.8),
+            rows_num=20,
+            column_data=[
+                ("ENG", 35),
+                ("POL", 30)
+            ],
+            row_data=[
+                ("English", "angielski"),
+                ("Polish", "polski"),
+                ("at once", "od razu"),
+                ("concise", "zwiezly / tresciwy / fdgdfgdfgdfsg"),
+                ("English", "angielski"),
+                ("Polish", "polski"),
+                ("at once", "od razu"),
+                ("concise", "zwiezly / tresciwy"),
+                ("English", "angielski"),
+                ("Polish", "polski"),
+                ("at once", "od razu"),
+                ("concise", "zwiezly / tresciwy"),
+                ("English", "angielski"),
+                ("Polish", "polski"),
+                ("at once", "od razu"),
+                ("concise", "zwiezly / tresciwy")
+            ]
+
+        )
+        self.manager.get_screen(name="remove_word").add_widget(table)
+
     pass
 
 
@@ -290,11 +322,23 @@ class AddScreen(Screen):
 
 
 class RemoveScreen(Screen):
+
+    # table = MDDataTable(
+    #     column_data=[
+    #         ("ENG",dp(30)),
+    #         ("POL", dp(30)),
+    #         ("Weights", dp(30))
+    #     ]
+    # )
+    # def add_table(self):
+    # self.add_widget(self.table)
+
     def remove_btn_action(self, obj):
         self.dialog = MDDialog(title='Translation deleted !',
                                text="eng_word - pol_word",
                                buttons=[MDFlatButton(text="Close", on_release=self.close_dialog)]
                                )
+        # self.add_widget(self.table)
         self.dialog.open()
 
     def close_dialog(self, obj):
