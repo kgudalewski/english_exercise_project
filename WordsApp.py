@@ -13,7 +13,7 @@ Window.size = (400, 800)
 
 
 class WordsApp(MDApp):
-    df = pd.read_csv("dictionary.csv",index_col=0)
+    df = pd.read_csv("dictionary.csv", index_col=0)
     percent_of_words = 0.2
     idx = random.randint(0, int(round(df.shape[0] * percent_of_words)))
     word = df.ENG[idx]
@@ -262,6 +262,12 @@ class GameScreen(Screen):
 
 class AddScreen(Screen):
     def add_btn_action(self, obj):
+        weight = WordsApp.df.weights.min()
+        new_row = {"ENG": self.ids.text_field1.text, "POL": self.ids.text_field2.text, "weights": weight}
+        WordsApp.df = WordsApp.df.append(new_row, ignore_index=True)
+        self.sort_weights()
+        self.normalize_weights()
+        WordsApp.df.to_csv("dictionary.csv")
         self.dialog = MDDialog(title='Translation added !',
                                text=f"{self.ids.text_field1.text} - {self.ids.text_field2.text}",
                                buttons=[MDFlatButton(text="Close", on_release=self.close_dialog)]
@@ -272,6 +278,13 @@ class AddScreen(Screen):
 
     def close_dialog(self, obj):
         self.dialog.dismiss()
+
+    def sort_weights(self):
+        WordsApp.df = WordsApp.df.sort_values(by="weights").reset_index(drop=True)
+
+    def normalize_weights(self):
+        WordsApp.df.weights = (WordsApp.df.weights - WordsApp.df.weights.min() + 0.2) \
+                              / (WordsApp.df.weights.max() - WordsApp.df.weights.min())
 
     pass
 
