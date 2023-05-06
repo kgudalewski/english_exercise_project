@@ -2,10 +2,12 @@ import random
 import pandas as pd
 import warnings
 import sys
+
 warnings.filterwarnings('ignore')
 
 # df = pd.read_csv("https://raw.githubusercontent.com/kgudalewski/english_exercise_project/main/dictionary.csv", index_col=0) # for game
-df = pd.read_csv("dictionary.csv",index_col=0) # for add translation
+df = pd.read_csv("dictionary.csv", index_col=0)  # for add translation
+
 
 def hello_user():
     print("Hello in English learning app !")
@@ -63,8 +65,7 @@ def check_func(idx):
 
 
 def eng_pol(number_of_words=0):
-
-    percent_of_words = 0.2
+    percent_of_words = 0.15
     if number_of_words == 1:
         idx = random.randint(0, int(round(df.shape[0] * percent_of_words)))
         eng_word = df.ENG[idx]
@@ -86,7 +87,7 @@ def eng_pol(number_of_words=0):
 
 
 def pol_eng(number_of_words=0):
-    percent_of_words = 0.2
+    percent_of_words = 0.15
     if number_of_words == 1:
         idx = random.randint(0, int(round(df.shape[0] * percent_of_words)))
         eng_word = df.ENG[idx]
@@ -116,4 +117,4 @@ def random_choice():
 
 
 if __name__ == "__main__":
-    print(df)
+    random_choice()
