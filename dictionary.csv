@@ -1,341 +1,345 @@
 ,ENG,POL,weights
-0,yield,przynieść / dać,0.3180762746906709
-1,interrelated,wzajemnie powiazany,0.6187187737419636
-2,(to) validate,potwierdzac,0.6842126161514925
-3,if applicable,jesli dotyczy,0.6864867986113993
-4,(to) process,przetwarzac,0.6966330304664502
-5,data recovery,odzyskiwanie danych,0.6979475632004715
-6,distinguish,odróżniać / rozróżniać,0.6979500127996737
-7,collinear,wspolliniowe,0.7055003964878936
-8,(to) make up,tworzyc cos,0.707156673432839
-9,(to) provide,zapewniac/dostarczac,0.7126081487818734
-10,mitigate,łagodzić / zmniejszać / ograniczać,0.7176742060841361
-11,parsing,analiza składniowa,0.7251989887856548
-12,accountable,odpowiedzialny,0.7281017211551928
-13,to sum up,podsumowujac,0.7283951814205677
-14,relevant,odpowiedni/stosowny,0.7301485867480345
-15,differential analysis,analiza roznicowa,0.7316533720177538
-16,align,dopasowywać się,0.7320148336397936
-17,stack,stos/sterta,0.7405469378535173
-18,delay,opoznienie,0.7406554945667804
-19,teem,roić się od czegoś,0.7420402196290382
-20,inventory management,zarzadzanie zapasami,0.7441342749587423
-21,(to) overcome issue,rozwiazac problem,0.7457237997287194
-22,(to) obtain,otrzymac/uzyskac,0.7459325593066339
-23,inconsistency,niespojnosc,0.7474879017108318
-24,leak,przeciek,0.7516997574528701
-25,convince,przekonać,0.7516997574528702
-26,reference,odwolanie,0.7541945909240536
-27,(to) harness,ujarzmic/okielznac,0.7573645366185727
-28,(to) execute,uruchamiac/wykonywac,0.7605542506123965
-29,limitation of liability,ograniczenie odpowiedzialnosci,0.7605542506123965
-30,garble,zniekształcać,0.7627742836025945
-31,overlay,pokryć / nałożyć,0.7636873291515993
-32,bottleneck,waskie gardlo,0.7654726003381016
-33,deployment,wdrozenie,0.7671893645493751
-34,(to) maintain,utrzymywac,0.7741233508201285
-35,(to) go beyond,wykraczac poza,0.7743916382595174
-36,visually appealing,atrakcyjny wizualnie,0.7744368502238977
-37,accuracy,dokladnosc,0.7755904590524472
-38,pattern,wzorzec,0.7761155935122384
-39,crucial,istotny,0.7762167135508561
-40,stash,chowac na potem,0.7765827208724743
-41,complex,zlozony,0.7771853145591239
-42,intangible,niematerialny,0.7771853145591239
-43,jitter,drgać,0.7821804731408543
-44,boot,rozruch,0.7886367412008884
-45,assumption,zalozenie,0.7896482995639202
-46,data retrievial,wyszukiwanie danych,0.7898951505909374
-47,(to) enact,wcielic w zycie,0.7905897488048129
-48,principle,zasada,0.7919594846689593
-49,query workload,obciazenie wskutek wykonywana zapytania,0.7960483031598922
-50,node,wezel,0.796227257968279
-51,retrieval of information,wyszukiwanie informacji,0.796454733033935
-52,justify,usprawiedliwiać / uzasadniać,0.7985652630914185
-53,safeguard,chronić / zabezpieczać,0.8002008112554354
-54,tend,zmierzać,0.8019061977346065
-55,fragmented,rozdrobniony,0.8034667033503984
-56,layout,układ,0.8073182237806026
-57,proxy,pełnomocnictwo / pełnomocnik,0.8087983460454145
-58,(to) transform,przeksztalcic,0.8119479882149796
-59,(to) resolve,rozkladac,0.813046906043322
-60,(to) rewrite,ponownie zapisac,0.8149970104177615
-61,(to) enable,umozliwiac,0.8171944199198895
-62,click-through,klikalnosc,0.8233458699280806
-63,(to) permit,zezwalac,0.8258586089136775
-64,(to) evolve,rozwijac/ewoluowac,0.8266771037314986
-65,ownership rights,prawa wlasnosci,0.8267869375893137
-66,(to) alter,zmieniac,0.8289435649812443
-67,predecessor,poprzednik,0.8318740549065246
-68,variety,roznorodnosc,0.8327507050049924
-69,adapt,przystosować się,0.8355790934363592
-70,maintenance,utrzymanie,0.8364330667796483
-71,avoidance,unikanie,0.8415804765165686
-72,surrogate key,klucz sztuczny,0.846889790749886
-73,combine,laczyc (cos z czyms),0.847103779134776
-74,deadlock,zakleszczenie/blokada wzajemna/zastoj,0.8472047302070939
-75,execution,wykonanie,0.8478856787442619
-76,above mentioned,wyżej wspomniany,0.8498746184152055
-77,equilibrium,równowaga / statyka,0.8506391102836124
-78,(to) offload,odciazac,0.8522742074227617
-79,distinct,odrebny/wyrazny,0.8528960764250662
-80,data steward,opiekun danych,0.8585516749978723
-81,deliverable,produkty mozliwe do dostarczenia,0.8595851421812375
-82,(to) leverage customer data,wykorzystac dane o klientach,0.860558005399286
-83,productive,produktywny/wydajny,0.862523969056598
-84,hesitate,wahać się,0.8642369634699865
-85,(to) embrace,ujmowac/obejmowac,0.8660704296809947
-86,redundancy,nadmiarowosc/redundancja,0.8667655333573321
-87,acquisition,nabycie / nabytek,0.8681146478355695
-88,derive,czerpać,0.8712476777102465
-89,whereas,podczas gdy,0.8722696446702606
-90,advance,postep,0.8725437179763262
-91,unwillingly,niechętnie,0.8737153033217578
-92,inference,wnioskować / wniosek,0.8737153033217578
-93,pivotal,kluczowy,0.8750982922046944
-94,storage capacity,pojemnosc pamieci,0.8763475187336031
-95,conduct of business,prowadzenie biznesu,0.8763584631611957
-96,collective,zespolowy,0.8775859696965223
-97,split apart,rozdzielić na kawałki,0.879023665206138
-98,(to) terminate,zakonczyc/przerwac,0.8795770295152947
-99,(to) restore,przywracac,0.8804363372245367
-100,address,zajmować się,0.8835015925151445
-101,paramount,najważniejszy / główny,0.8863121849890327
-102,validation rule,regula poprawnosci,0.8872276060236366
-103,assets,aktywa,0.8874738865738778
-104,(to) lease,wydzierdzawic,0.8913164245145744
-105,emerge,pojawiać się / powstać,0.8918037587301705
-106,(to) involve,dotyczyc/ objac,0.8933951768470355
-107,oversight,nadzór,0.8938230979845825
-108,indispensable,niezbędny,0.8966940255814093
-109,disparate,rozne,0.8978610381244623
-110,(to) grant permission,udzielic zezwolenia,0.8999583513962189
-111,admit,przyznac,0.9054927751461819
-112,debatable issue,kwestia sporna,0.9094817935187963
-113,efficient,wydajny/sprawny/efektywny,0.9113371236661065
-114,measure of uncertainty,miara niepewnosci,0.9192972880130302
-115,resolution,postanowienie/uchwała,0.9197987137492821
-116,data validation,sprawdzenie poprawnosci danych,0.9207690240660137
-117,(to) spot,zauwazyc/dostrzegac,0.9209571043936475
-118,restriction,ograniczenie,0.9215084111902971
-119,notion,pojęcie / pogląd,0.9220798772501139
-120,copper,miedz,0.9231498176788535
-121,time-variant,zmienny w czasie,0.9234079312801247
-122,chunk,spory kawał/znaczna część,0.9246872656316254
-123,sufficient,wystarczający / dostateczny,0.9250918942012492
-124,brief,krótki / zwięzły,0.9250988133952813
-125,ease,ulatwic/zalagodzic,0.9269458977008929
-126,(to) mimic,nasladowac,0.9276794536479227
-127,congestion,korek/zator,0.9278163863063369
-128,(to) clarify,wyjasniac/doprecyzowac,0.928293870799499
-129,(to) bottom out a problem,dotrzec do sedna problemu,0.9303987539063946
-130,contemporary,wspólczesny / dzisiejszy,0.9394460345048915
-131,regard,uważać/uznawać,0.9425142803177425
-132,persuasive,przekonujacy,0.9427254680908802
-133,associated,powiązany,0.9449120519100482
-134,istead,zamiast,0.9449120519100482
-135,eager,chętny / skory,0.9449120519100482
-136,conscious,świadomy / przytomny,0.9449120519100482
-137,stakeholder,interesariusz,0.9449120519100482
-138,coincide,zbiec się,0.9449120519100482
-139,deaf,głuchy,0.9449120519100482
-140,strain,odkształcenie / naprężenie,0.9449120519100482
-141,incorporate,wcielić / włączyć,0.9456231456378678
-142,major,wazny/istotny,0.9492180496154382
-143,deployable,mozliwe do wdrozenia,0.9539807071945624
-144,(to) comply with restrictions,stosowac sie do ograniczen,0.9603000605656608
-145,knowledge extraction,wydobywanie wiedzy,0.9609328651106328
-146,future gain,przyszly zysk,0.9612366719987209
-147,comparative,porównawczy / względny,0.9619145799712078
-148,pertinent,trafny / stosowny,0.9619145799712082
-149,constraint/s,ograniczenie/wiezy,0.9686664937291175
-150,information retention,przechowywanie informacji,0.9693179818561998
-151,mutual responsibility,wzajemna odpowiedzialność,0.9694855990055697
-152,(to) prevent,zapobiec/uniemozliwiac/powstrzymywac,0.9727418369164006
-153,(to) convert,przeksztalcic/konwertowac,0.9738570113845156
-154,relevant,odpowiedni,0.9743407391959557
-155,descriptive,opisowy,0.9754444084917756
-156,(to) reveal,wyjawic/ujawnic/odslaniac,0.9795482188364237
-157,significant,istotny,0.9803339852573316
-158,occurence,wystąpienie,0.981787430370664
-159,alteration,zmiana,0.9822314460103364
-160,casualty,wypadek/ofiara wypadku,0.9825378942343893
-161,vendor,dostawca,0.989462943125567
-162,internal node,wezel wewnetrzny,0.9899776404872982
-163,veracity,wiarygodnosc,0.9949565927757809
-164,legacy data,dane historyczne,0.9968620929603501
-165,at disposal,do dyspozycji,0.9972730102973962
-166,raise an issue,poruszyć kwestię,0.9983560525517501
-167,(to) decrypt,rozszyfrowac,0.9987870361319718
-168,conspicuous,wyraźny / demonstracyjny,0.9994866072478458
-169,hub,koncentrator,0.99959001378633
-170,lean,szczuply/chudy,1.0004242641040935
-171,register,rejestr,1.0009461571464238
-172,suite,pakiet,1.0018913791053028
-173,(to) route,skierowac,1.0027252361095202
-174,property,właściwość / własność,1.0030931866749688
-175,portable,przenosny,1.0078505536616338
-176,disruption,zaklocenie,1.0164838031134715
-177,verbose,gadatliwy/rozwlekly,1.0168997606850336
-178,expansion,rozszerzenie,1.0191246350463568
-179,attachment,zalacznik,1.0196129181965876
-180,courage,odwaga/mestwo,1.0196601079245888
-181,despite,pomimo,1.020672765890795
-182,although,aczkolwiek,1.021009871847048
-183,explanatory variable,zmienna objasniajaca,1.025894946664041
-184,forge,podrabiać/fałszować,1.026670539978904
-185,text mining,eksploracja tekstu,1.0270086773403064
-186,(to) conduct analysis,przeprowadzic analize,1.0270086773403064
-187,refinement,udoskonalenie,1.0284537930170634
-188,foresight,dalekowzroczność / zapobiegliwość,1.030188141567409
-189,instance,instancja,1.0320288589388305
-190,explicit,przejrzysty,1.0325844475805577
-191,intimidate,zastraszyć / onieśmielać,1.035004831347633
-192,determinant,wyznacznik/czynnik warunkujacy,1.0362233370371272
-193,layer,warstwa,1.0363338106969633
-194,(to) encounter,napotykac,1.036470102467185
-195,chart,wykres,1.0384861655510877
-196,(to) apply,odnosic sie/miec zastosowanie,1.0390236232924184
-197,estimate,oszacowac,1.0404491303985213
-198,benchmark,wzorzec / punkt odniesienia,1.0423901439445005
-199,performance,wydajnosc,1.0446115414755266
-200,countercheck,powtórnie weryfikować,1.045746862939999
-201,business case,przypadek biznesowy,1.0462898511286227
-202,(to) detect,wykrywac,1.0465995908841885
-203,contribute,przyczynic się / wnieść wkład,1.0472382406072172
-204,compliance,zgodność,1.0473147388167077
-205,trusthworthiness,wiarygodnosc,1.0484143551765654
-206,latency,zwloka/opoznienie,1.0530089903747144
-207,copyright infringement,naruszenie praw autorskich,1.0530089903747144
-208,in order to,w celu,1.0538933545865563
-209,underlying data,dane zrodlowe,1.0540818415215032
-210,digest,strawić / streścić / streszczenie,1.0546652905659712
-211,critical,krytyczny/kluczowy,1.0548572509718155
-212,track,sciezka,1.0553444623680306
-213,feasibility,wykonalnosc,1.0567774183415104
-214,spurious pattern,falszywy wzorzec,1.0578107438472355
-215,(to) guesstimate,szacowac,1.060123646000924
-216,consistency,spojnosc,1.0617594428752946
-217,domain,dziedzina/domena,1.0625243481915014
-218,(to) overlook,przeoczyc,1.0629590338434654
-219,tangible benefit,wymierna korzysc,1.0647329637495564
-220,elaborate,wypracowac/opracowac/rozwinac/podac wiecej info,1.0647521175184211
-221,(to) decipher,rozszyfrowac/odcyfrowac,1.0648595945619825
-222,reliability,rzetelność,1.0653106667221357
-223,(to) capture,pojmac/pojac/przychwytywac/zdobywac,1.0657957144029429
-224,velocity,predkosc,1.0663321870441802
-225,complementary,uzupelniajacy,1.0667015470318906
-226,widespread,rozpowszechnione,1.0672465557629094
-227,insight,wgląd / wyobrażenie,1.0683146235208218
-228,legally binding agreement,umowa wiazaca prawnie,1.0697735622546027
-229,distributed processing,przetwarzanie rozproszone,1.0721869401391328
-230,bar code,kod kreskowy,1.0726130065320714
-231,phase,faza,1.0746548206035276
-232,flow chart,schemat blokowy,1.076205561394381
-233,volatile memory,ulotna pamiec,1.0788386175577314
-234,(to) operate,obslugiwac,1.0802943798853115
-235,intended user,docelowy uzytkownik,1.08169102068081
-236,fault-tolerant,odporny na bledy,1.0834991733491068
-237,converging paths,zbiegajace sie sciezki,1.0834991733491068
-238,(to) replicate,powielac/replikowac,1.0841815982928118
-239,resources,zasoby,1.0847933087400505
-240,accurate,dokladny,1.0853904356260105
-241,distributed,rozproszone,1.0853920345258923
-242,archivial data,dane archiwalne,1.0857605311781857
-243,time-consuming,czasochlonny,1.0866568134292856
-244,(to) state,okreslic/oglaszac,1.0866568134292969
-245,(to be) intended ,byc przeznaczonym,1.0903447850481207
-246,evaluation,ocena,1.0909315205427814
-247,slightly,nieco,1.093064518938373
-248,council,rada,1.0946803880456097
-249,accesible remotely,dostepny zdalnie,1.097362759403698
-250,vacant,pusty/oprozniony,1.1007525965589293
-251,disparate data,zroznicowane dane,1.1019085146916683
-252,confidentiality,poufnosc,1.1048482653732636
-253,(to) perform task,wykonywac zadanie,1.107124556082982
-254,forecasting,prognozowanie,1.107428880224967
-255,publisher,wydawca,1.1084022647391123
-256,at once,od razu,1.108443039502945
-257,(to) launch,uruchamiac,1.1094036669117036
-258,(to) intervene,ingerowac,1.1094130816625778
-259,adjacent,sąsiadujący,1.1133643419300112
-260,increase in revenue,wzrost przychodu,1.115230465297323
-261,terminal node,wezel koncowy,1.1177637494485384
-262,comprehensive,obszerny,1.123015152217313
-263,(to) tackle challenge,podjac wyzwanie,1.1329980976489853
-264,are concerned,jesli o to chodzi,1.1353522334466486
-265,and so on and so forth,tak dalej,1.139721815415484
-266,encryption,szyfrowanie,1.1422882272408068
-267,execution of authority,sprawowanie władzy,1.1473761685407486
-268,browser,przeglądarka,1.147535298764932
-269,database designer,projektant baz danych,1.1518365655651417
-270,initial exploration,wstepna ekploracja,1.1546365656965625
-271,(to) disable,wylaczac/blokowac/uniemozliwic,1.1570302582085406
-272,computation,obliczenie,1.15994378622859
-273,anchor,kotwica,1.1652145705970374
-274,scope of network,zasieg sieci,1.168345979556207
-275,(to) evaluate,oceniac,1.1718700865834055
-276,convenient,wygodny / dogodny,1.174426686032923
-277,tabular database,tabelaryczna baza danych,1.1752582600900443
-278,snippet,fragment/skrawek,1.1797132360793985
-279,service,usluga,1.1798800281898445
-280,lurking serpents,czychajce weze,1.1839648348949412
-281,inventive,pomyslowy,1.1844233777890445
-282,(to) disregard,lekcewazyc,1.1895421101634858
-283,meaningful,znaczacy,1.191974626635577
-284,enhancement,poprawa/zwiekszenie,1.1970750587373804
-285,(to) encompass,obejmowac,1.1971295157270072
-286,forecast,prognoza,1.2003601356745142
-287,(to) encrypt,zaszyfrowac,1.200848178994543
-288,attitude,postawa / stosunek,1.2066479658645104
-289,recipient,odbiorca,1.2071187403364187
-290,fair use,dozwolony uzytek,1.2131866551132633
-291,guideline,wytyczna,1.2131866551132633
-292,knowladge discovery,odkrywanie wiedzy,1.2135365205120074
-293,several,kilka,1.2151553318202895
-294,inherent,nieodlaczny,1.2158076686428403
-295,succinct,zwiezly,1.21601803600452
-296,interchangeable,wymienny/zamienny,1.2165532865306286
-297,disclaimer,zrzeczenie sie odpowiedzialnosci,1.218267339115336
-298,invalid data,nieprawidlowe dane,1.2201981317438797
-299,subject-oriented,tematyczny,1.2209205174946478
-300,in alignment with,w zgodzie z,1.2250993786342834
-301,abuse,nadużycie,1.23136861354528
-302,capability,mozliwosc/zdolnosc,1.2314887915573565
-303,junction,węzęł/skrzyżowanie,1.234210824750903
-304,adopt,przyjmować,1.2349497127900373
-305,concurrent access,rownoczesny dostep,1.2385566463342352
-306,spreadsheet,arkusz kalkulacyjny,1.2396929127976306
-307,gather,zbierac/gromadzic,1.2410155931811342
-308,concise,zwięzły / treściwy,1.2419575466952302
-309,susceptibility,podatnosc/wrazliwosc,1.2426827398149696
-310,outcome,wynik/rezultat,1.2444259827030741
-311,circuit,obwod,1.2453646723273004
-312,(to) put emphasis,klasc nacisk,1.245450878528704
-313,(to) meet the need,zaspokoic potrzebe,1.2528427054832196
-314,entrepreneur,przedsiębiorca,1.2561537434781782
-315,agreed-upon,uzgodniony,1.2597733282194716
-316,in current use,obecnie uzywany,1.2614401164886917
-317,data warehouse,hurtownia danych,1.2648131081608636
-318,(to) fetch,pobierac,1.2667414608823437
-319,factor,czynnik,1.267373912062781
-320,(to) grant,przyznawac/udzielac,1.269970017928159
-321,expression,wyrazenie,1.2704349464664177
-322,residue,pozostalosc,1.2708151579399234
-323,reassemble,ponownie złożyć,1.2756731176497493
-324,seal,plomba,1.2759716973229691
-325,increment,przyrost,1.2770571657871164
-326,upfront,z gory,1.2798154165830085
-327,assessment,ocena,1.279879565460594
-328,(to) accelerate,przyspieszac,1.2822085956122378
-329,fraud,oszustwo,1.282216177241931
-330,surge,przyplyw/fala,1.282387228051233
-331,heterogeneity,niejednorodnosc,1.2845483801721391
-332,pending,oczekujacy/w toku,1.2869208043435492
-333,data encapsulation,enkapsulacja/obudowywanie danych,1.2980159910790061
-334,consistent,spojny,1.298393770554573
-335,executive (noun),kierownik/wykonawca,1.29958932018395
-336,concurrent user,wspoluzytkownik,1.3006765476433677
-337,goodwill,wartosc firmy,1.3118167614610237
-338,pot,garnek,1.317715784141591
-339,improbable,nieprawdopodobny,1.318076274690671
+0,designate,określić / oznaczać,0.2467099866534664
+1,motion,ruch,0.4093165388567661
+2,concise,zwięzły / treściwy,0.42860000053770847
+3,if applicable,jesli dotyczy,0.48654856864507456
+4,convenient,wygodny / dogodny,0.6284257861779216
+5,notion,pojęcie / pogląd,0.6681222391305836
+6,regard,uważać/uznawać,0.7115591798424044
+7,differential analysis,analiza roznicowa,0.729914620374386
+8,factor,czynnik,0.7804071562167573
+9,(to) leverage customer data,wykorzystac dane o klientach,0.787144150289557
+10,reassemble,ponownie złożyć,0.7939774873521502
+11,casualty,wypadek/ofiara wypadku,0.7966364556021389
+12,upfront,z gory,0.8007507101139025
+13,(to) execute,uruchamiac/wykonywac,0.8097787333433066
+14,pending,oczekujacy/w toku,0.8123689865556033
+15,bottleneck,waskie gardlo,0.8233700031321493
+16,unwillingly,niechętnie,0.8235027656238609
+17,legacy data,dane historyczne,0.827085075449008
+18,data encapsulation,enkapsulacja/obudowywanie danych,0.8305111275631224
+19,collective,zespolowy,0.8341988880827987
+20,lean,szczuply/chudy,0.834657100737149
+21,register,rejestr,0.835766476776301
+22,property,właściwość / własność,0.8403303680741916
+23,(to) restore,przywracac,0.842075537005939
+24,(to) maintain,utrzymywac,0.8472753149205114
+25,visually appealing,atrakcyjny wizualnie,0.8481416329362892
+26,accuracy,dokladnosc,0.8513294926237889
+27,crucial,istotny,0.8530600718463012
+28,stash,chowac na potem,0.8540714891976953
+29,complex,zlozony,0.8557366846036879
+30,database designer,projektant baz danych,0.857527778619947
+31,pot,garnek,0.8627229714988571
+32,(to) disable,wylaczac/blokowac/uniemozliwic,0.8685678916430732
+33,disruption,zaklocenie,0.8687944935203324
+34,jitter,drgać,0.8695402064572738
+35,(to) lease,wydzierdzawic,0.8721413537802547
+36,expansion,rozszerzenie,0.8744080492341441
+37,computation,obliczenie,0.8747611111587238
+38,courage,odwaga/mestwo,0.875546291618205
+39,despite,pomimo,0.8776988753709024
+40,(to) involve,dotyczyc/ objac,0.8778857366221264
+41,although,aczkolwiek,0.8784154537503591
+42,indispensable,niezbędny,0.8870017095890608
+43,boot,rozruch,0.8873813291766292
+44,disparate,rozne,0.8902266088345739
+45,forge,podrabiać/fałszować,0.8904482058311983
+46,(to) conduct analysis,przeprowadzic analize,0.8911669766448637
+47,text mining,eksploracja tekstu,0.8911669766448637
+48,scope of network,zasieg sieci,0.8926214603068294
+49,(to) enact,wcielic w zycie,0.892778231537165
+50,refinement,udoskonalenie,0.894238825808516
+51,adapt,przystosować się,0.8955101299446323
+52,contradiction,sprzeczność / zaprzeczenie,0.8955101299446323
+53,vagueness,niejasność,0.8955101299446323
+54,(to) grant permission,udzielic zezwolenia,0.8960222826068529
+55,principle,zasada,0.8965633323753117
+56,foresight,dalekowzroczność / zapobiegliwość,0.8979254906406461
+57,(to) evaluate,oceniac,0.900112573577715
+58,instance,instancja,0.9018382612297856
+59,explicit,przejrzysty,0.9030192632297462
+60,inference,wnioskować / wniosek,0.9051890613161333
+61,tabular database,tabelaryczna baza danych,0.9073147360897373
+62,query workload,obciazenie wskutek wykonywana zapytania,0.9078622920522614
+63,intimidate,zastraszyć / onieśmielać,0.9081642173467006
+64,node,wezel,0.9083568122097209
+65,retrieval of information,wyszukiwanie informacji,0.9089854122808797
+66,layer,warstwa,0.9109891981896964
+67,(to) encounter,napotykac,0.9112789104716275
+68,admit,przyznac,0.9113159990984632
+69,(to) process,przetwarzac,0.9116756929783629
+70,justify,usprawiedliwiać / uzasadniać,0.9148176090559085
+71,chart,wykres,0.9155644094097144
+72,data recovery,odzyskiwanie danych,0.9163980126668683
+73,distinguish,odróżniać / rozróżniać,0.9164068125926841
+74,(to) apply,odnosic sie/miec zastosowanie,0.9167068709716226
+75,snippet,fragment/skrawek,0.9167845761081478
+76,service,usluga,0.9171391222619388
+77,safeguard,chronić / zabezpieczać,0.9193372503155819
+78,yield,przynieść / dać,0.9195090701590134
+79,estimate,oszacowac,0.9197370386475336
+80,debatable issue,kwestia sporna,0.9223391731138247
+81,benchmark,wzorzec / punkt odniesienia,0.923863006508621
+82,tend,zmierzać,0.9240498813860242
+83,lurking serpents,czychajce weze,0.925822101944845
+84,inventive,pomyslowy,0.9267968160306477
+85,efficient,wydajny/sprawny/efektywny,0.9274661555338986
+86,fragmented,rozdrobniony,0.9283621515607913
+87,performance,wydajnosc,0.928584980159294
+88,susceptibility,podatnosc/wrazliwosc,0.9295019691537476
+89,interrelated,wzajemnie powiazany,0.9307599434267685
+90,countercheck,powtórnie weryfikować,0.9309983068896095
+91,business case,przypadek biznesowy,0.9321525243961547
+92,(to) detect,wykrywac,0.9328109310720958
+93,contribute,przyczynic się / wnieść wkład,0.9341684941025897
+94,compliance,zgodność,0.9343311045874279
+95,critical,krytyczny/kluczowy,0.9353889597236082
+96,trusthworthiness,wiarygodnosc,0.9366685337979026
+97,(to) disregard,lekcewazyc,0.937677587733762
+98,layout,układ,0.9390053664974105
+99,meaningful,znaczacy,0.9428483320627777
+100,proxy,pełnomocnictwo / pełnomocnik,0.9430955069191855
+101,collinear,wspolliniowe,0.9435307666973325
+102,latency,zwloka/opoznienie,0.9464352441849857
+103,copyright infringement,naruszenie praw autorskich,0.9464352441849857
+104,in order to,w celu,0.9483151168541453
+105,underlying data,dane zrodlowe,0.9487157791975058
+106,measure of uncertainty,miara niepewnosci,0.9494631153346891
+107,(to) make up,tworzyc cos,0.9494807662860119
+108,(to) guesstimate,szacowac,0.9499420109800373
+109,digest,strawić / streścić / streszczenie,0.9499560034149223
+110,resolution,postanowienie/uchwała,0.9508487452391369
+111,track,sciezka,0.9513997032970061
+112,(to) transform,przeksztalcic,0.9517991654331676
+113,data validation,sprawdzenie poprawnosci danych,0.9535300814655279
+114,enhancement,poprawa/zwiekszenie,0.9536902032971606
+115,(to) encompass,obejmowac,0.9538059612677716
+116,(to) spot,zauwazyc/dostrzegac,0.9540498189013368
+117,feasibility,wykonalnosc,0.9544457048590141
+118,consistency,spojnosc,0.9544623395209543
+119,(to) resolve,rozkladac,0.9548358930986914
+120,restriction,ograniczenie,0.9555732891357788
+121,spurious pattern,falszywy wzorzec,0.9566422211252168
+122,(to) overlook,przeoczyc,0.9577772653383388
+123,copper,miedz,0.9601091191729421
+124,(to) rewrite,ponownie zapisac,0.9602247727326239
+125,forecast,prognoza,0.9606732158020913
+126,time-variant,zmienny w czasie,0.9608223851639127
+127,(to) encrypt,zaszyfrowac,0.9617106382649222
+128,(to) decipher,rozszyfrowac/odcyfrowac,0.9630292370190917
+129,chunk,spory kawał/znaczna część,0.9643576722604164
+130,brief,krótki / zwięzły,0.9654949351633791
+131,(to) enable,umozliwiac,0.9662970504366468
+132,domain,dziedzina/domena,0.966661821490505
+133,(to) provide,zapewniac/dostarczac,0.969064614375816
+134,ease,ulatwic/zalagodzic,0.9705991311885419
+135,tangible benefit,wymierna korzysc,0.9713566247951546
+136,elaborate,wypracowac/opracowac/rozwinac/podac wiecej info,0.9713973395211899
+137,reliability,rzetelność,0.9725846347196884
+138,(to) mimic,nasladowac,0.9726262250995721
+139,congestion,korek/zator,0.9730046220837639
+140,(to) capture,pojmac/pojac/przychwytywac/zdobywac,0.9736156894211103
+141,attitude,postawa / stosunek,0.9740391118483301
+142,(to) clarify,wyjasniac/doprecyzowac,0.9743240932333326
+143,velocity,predkosc,0.9747560569784016
+144,recipient,odbiorca,0.9750398263178084
+145,complementary,uzupelniajacy,0.9755411970108454
+146,widespread,rozpowszechnione,0.9766997095378981
+147,insight,wgląd / wyobrażenie,0.9789700766106778
+148,(to) bottom out a problem,dotrzec do sedna problemu,0.9801406853374438
+149,legally binding agreement,umowa wiazaca prawnie,0.982071309128784
+150,click-through,klikalnosc,0.9832958450154355
+151,distributed processing,przetwarzanie rozproszone,0.987201371002313
+152,mitigate,łagodzić / zmniejszać / ograniczać,0.9872638889335421
+153,guideline,wytyczna,0.9879382532272644
+154,fair use,dozwolony uzytek,0.9879382532272644
+155,bar code,kod kreskowy,0.9881070505363865
+156,knowladge discovery,odkrywanie wiedzy,0.9886819540602213
+157,(to) permit,zezwalac,0.9902394979410706
+158,several,kilka,0.9921230240336756
+159,phase,faza,0.9924472877565726
+160,(to) evolve,rozwijac/ewoluowac,0.992501310237915
+161,ownership rights,prawa wlasnosci,0.992804822935621
+162,inherent,nieodlaczny,0.9935096814168881
+163,succinct,zwiezly,0.9939568544802141
+164,flow chart,schemat blokowy,0.994382456052796
+165,interchangeable,wymienny/zamienny,0.9950946242154785
+166,(to) alter,zmieniac,0.9983094211353727
+167,disclaimer,zrzeczenie sie odpowiedzialnosci,0.9987381463801572
+168,volatile memory,ulotna pamiec,1.0013406887357252
+169,invalid data,nieprawidlowe dane,1.002842387872082
+170,subject-oriented,tematyczny,1.0043779466512315
+171,(to) operate,obslugiwac,1.004435169240212
+172,contemporary,wspólczesny / dzisiejszy,1.0051417605612896
+173,predecessor,poprzednik,1.006862461729453
+174,intended user,docelowy uzytkownik,1.007403976463452
+175,variety,roznorodnosc,1.0092849791719238
+176,fault-tolerant,odporny na bledy,1.011247525011986
+177,converging paths,zbiegajace sie sciezki,1.011247525011986
+178,(to) replicate,powielac/replikowac,1.0126981400224604
+179,in alignment with,w zgodzie z,1.0132608556828557
+180,resources,zasoby,1.013998438853875
+181,persuasive,przekonujacy,1.0142040820934113
+182,parsing,analiza składniowa,1.0142958742036265
+183,accurate,dokladny,1.0152677377444297
+184,time-consuming,czasochlonny,1.0179596479204978
+185,maintenance,utrzymanie,1.0194607444449586
+186,distributed,rozproszone,1.0197681731533474
+187,strain,odkształcenie / naprężenie,1.0202464443205035
+188,associated,powiązany,1.0202464443205035
+189,deaf,głuchy,1.0202464443205035
+190,eager,chętny / skory,1.0202464443205035
+191,conscious,świadomy / przytomny,1.0202464443205035
+192,stakeholder,interesariusz,1.0202464443205035
+193,coincide,zbiec się,1.0202464443205035
+194,istead,zamiast,1.0202464443205035
+195,archivial data,dane archiwalne,1.020786469471607
+196,incorporate,wcielić / włączyć,1.0222114665818198
+197,(to) state,okreslic/oglaszac,1.0232632380141407
+198,accountable,odpowiedzialny,1.0247236329534586
+199,leak,przeciek,1.0256585418672937
+200,to sum up,podsumowujac,1.0257778578906607
+201,(to be) intended ,byc przeznaczonym,1.0257990843857592
+202,abuse,nadużycie,1.026587224172123
+203,capability,mozliwosc/zdolnosc,1.026842683808901
+204,evaluation,ocena,1.0270462945347787
+205,slightly,nieco,1.0315803601759956
+206,relevant,odpowiedni/stosowny,1.0320767809113887
+207,major,wazny/istotny,1.0321455527182304
+208,junction,węzęł/skrzyżowanie,1.0326288471752778
+209,avoidance,unikanie,1.0336849941119886
+210,adopt,przyjmować,1.0341994844893376
+211,council,rada,1.0350151759803432
+212,align,dopasowywać się,1.0387810753062539
+213,accesible remotely,dostepny zdalnie,1.0407170310951108
+214,concurrent access,rownoczesny dostep,1.0418666601828133
+215,spreadsheet,arkusz kalkulacyjny,1.0442819956756086
+216,sufficient,wystarczający / dostateczny,1.0446155926040888
+217,deployable,mozliwe do wdrozenia,1.045306585926472
+218,gather,zbierac/gromadzic,1.0470935869517908
+219,vacant,pusty/oprozniony,1.0479227299866904
+220,combine,laczyc (cos z czyms),1.048947978689344
+221,deadlock,zakleszczenie/blokada wzajemna/zastoj,1.0492269448743174
+222,disparate data,zroznicowane dane,1.0503798385811207
+223,execution,wykonanie,1.0511086645154808
+224,outcome,wynik/rezultat,1.0543429735366814
+225,circuit,obwod,1.0563383244857347
+226,(to) put emphasis,klasc nacisk,1.0565215710257467
+227,above mentioned,wyżej wspomniany,1.0566048608352028
+228,confidentiality,poufnosc,1.0566287990054295
+229,(to) perform task,wykonywac zadanie,1.0614674578237797
+230,(to) comply with restrictions,stosowac sie do ograniczen,1.0627693613181337
+231,surrogate key,klucz sztuczny,1.0627793373940333
+232,publisher,wydawca,1.0641834537332089
+233,at once,od razu,1.064270127711073
+234,knowledge extraction,wydobywanie wiedzy,1.0645180408090142
+235,distinct,odrebny/wyrazny,1.0649542977922888
+236,future gain,przyszly zysk,1.0653575747197754
+237,comparative,porównawczy / względny,1.0672308921249865
+238,pertinent,trafny / stosowny,1.0672308921249882
+239,stack,stos/sterta,1.0694317564723228
+240,delay,opoznienie,1.069821734972739
+241,(to) meet the need,zaspokoic potrzebe,1.072234207607922
+242,adjacent,sąsiadujący,1.0747312271149532
+243,teem,roić się od czegoś,1.0747962131697666
+244,equilibrium,równowaga / statyka,1.076248370910187
+245,increase in revenue,wzrost przychodu,1.0786980026453465
+246,entrepreneur,przedsiębiorca,1.079272404936497
+247,data steward,opiekun danych,1.080582866378753
+248,forecasting,prognozowanie,1.0806643541682661
+249,(to) offload,odciazac,1.0821222842886717
+250,inventory management,zarzadzanie zapasami,1.082318885261796
+251,deliverable,produkty mozliwe do dostarczenia,1.0834387290339889
+252,terminal node,wezel koncowy,1.0840829465127237
+253,constraint/s,ograniczenie/wiezy,1.0858889962844251
+254,(to) launch,uruchamiac,1.0861214404129829
+255,(to) intervene,ingerowac,1.0861474569482563
+256,agreed-upon,uzgodniony,1.086966472988724
+257,information retention,przechowywanie informacji,1.0876893056144268
+258,(to) overcome issue,rozwiazac problem,1.0880290847283902
+259,mutual responsibility,wzajemna odpowiedzialność,1.0881524955105046
+260,(to) obtain,otrzymac/uzyskac,1.088779031412437
+261,in current use,obecnie uzywany,1.0905095264848144
+262,productive,produktywny/wydajny,1.0915598247578195
+263,inconsistency,niespojnosc,1.0943664343485682
+264,hesitate,wahać się,1.0962934794423291
+265,(to) prevent,zapobiec/uniemozliwiac/powstrzymywac,1.097150718575339
+266,data warehouse,hurtownia danych,1.0976794173204163
+267,(to) convert,przeksztalcic/konwertowac,1.1002323695158096
+268,relevant,odpowiedni,1.1015690933269056
+269,(to) fetch,pobierac,1.1017784723580015
+270,redundancy,nadmiarowosc/redundancja,1.103280879166925
+271,descriptive,opisowy,1.104618951103133
+272,(to) grant,przyznawac/udzielac,1.108641341829632
+273,convince,przekonać,1.109497080228285
+274,expression,wyrazenie,1.109629629732378
+275,residue,pozostalosc,1.1104378365186471
+276,(to) reveal,wyjawic/ujawnic/odslaniac,1.1159593389703983
+277,(to) tackle challenge,podjac wyzwanie,1.1164662501686227
+278,significant,istotny,1.1181307102662947
+279,reference,odwolanie,1.1184595053665867
+280,advance,postep,1.1192481995947603
+281,seal,plomba,1.12139897371058
+282,occurence,wystąpienie,1.1221471315783724
+283,alteration,zmiana,1.1233741155640198
+284,increment,przyrost,1.123706329064474
+285,comprehensive,obszerny,1.1237351481264748
+286,pivotal,kluczowy,1.1263074591980207
+287,assessment,ocena,1.129705839149313
+288,storage capacity,pojemnosc pamieci,1.129759546936524
+289,(to) harness,ujarzmic/okielznac,1.1298471996987975
+290,(to) embrace,ujmowac/obejmowac,1.1316837522619718
+291,(to) accelerate,przyspieszac,1.1346566049866211
+292,fraud,oszustwo,1.1346727210825205
+293,surge,przyplyw/fala,1.135036319854541
+294,portable,przenosny,1.1357326199627202
+295,encryption,szyfrowanie,1.1362140650154555
+296,split apart,rozdzielić na kawałki,1.1371547568608174
+297,acquisition,nabycie / nabytek,1.13902738957819
+298,heterogeneity,niejednorodnosc,1.1396302312222644
+299,limitation of liability,ograniczenie odpowiedzialnosci,1.1413059095535585
+300,vendor,dostawca,1.143357490832489
+301,internal node,wezel wewnetrzny,1.1447797952827665
+302,execution of authority,sprawowanie władzy,1.1470293848395468
+303,garble,zniekształcać,1.1492811430547227
+304,derive,czerpać,1.1502824677355843
+305,overlay,pokryć / nałożyć,1.1525611625331107
+306,whereas,podczas gdy,1.1539537758524336
+307,are concerned,jesli o to chodzi,1.1578271929679438
+308,veracity,wiarygodnosc,1.1585385329879916
+309,validation rule,regula poprawnosci,1.1598253637108282
+310,assets,aktywa,1.1605059304839846
+311,initial exploration,wstepna ekploracja,1.16246264412085
+312,at disposal,do dyspozycji,1.1649396750855816
+313,deployment,wdrozenie,1.1651418539687417
+314,raise an issue,poruszyć kwestię,1.167932532505765
+315,conduct of business,prowadzenie biznesu,1.1686424234324755
+316,consistent,spojny,1.1690610591834945
+317,(to) decrypt,rozszyfrowac,1.16912350395758
+318,and so on and so forth,tak dalej,1.1699020088543612
+319,conspicuous,wyraźny / demonstracyjny,1.1710566848622712
+320,hub,koncentrator,1.1713424364336005
+321,executive (noun),kierownik/wykonawca,1.1716024115390005
+322,concurrent user,wspoluzytkownik,1.1739135059486931
+323,suite,pakiet,1.1777019835738483
+324,attachment,zalacznik,1.1779876693724602
+325,oversight,nadzór,1.1780512149883136
+326,(to) route,skierowac,1.180006247430972
+327,(to) terminate,zakonczyc/przerwac,1.1802047823371704
+328,anchor,kotwica,1.184948065896599
+329,(to) go beyond,wykraczac poza,1.191015259828607
+330,browser,przeglądarka,1.1914936333047261
+331,address,zajmować się,1.1943033594538277
+332,pattern,wzorzec,1.1972083865734404
+333,goodwill,wartosc firmy,1.197594002291701
+334,intangible,niematerialny,1.201051246192054
+335,paramount,najważniejszy / główny,1.2044001153826105
+336,improbable,nieprawdopodobny,1.2108997056264745
+337,(to) validate,potwierdzac,1.2157672264222232
+338,verbose,gadatliwy/rozwlekly,1.2191758466620963
+339,emerge,pojawiać się / powstać,1.2241280127011676
+340,determinant,wyznacznik/czynnik warunkujacy,1.2376588406524986
+341,explanatory variable,zmienna objasniajaca,1.244032964650788
+342,assumption,zalozenie,1.2458232004709375
+343,data retrievial,wyszukiwanie danych,1.2467099866534663
