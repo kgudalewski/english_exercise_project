@@ -2,6 +2,7 @@ import random
 import pandas as pd
 import warnings
 import sys
+import os
 
 warnings.filterwarnings('ignore')
 
@@ -112,8 +113,10 @@ def random_choice():
     while True:
         if random.randint(0, 1) == 0:
             eng_pol(1)
+            os.system('cls')
         else:
             pol_eng(1)
+            os.system('cls')
 
 
 if __name__ == "__main__":

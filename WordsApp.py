@@ -92,11 +92,12 @@ ScreenManager:
         size_hint: 0.9, None
     MDTextField:
         id: user_translation
-        hint_text: "Enter your translation"
+        hint_text: "Enter your answer"
         pos_hint: {'center_x':0.5,'center_y':0.7}
         size_hint: 0.9, None
         halign: 'center'
         mode: "rectangle"
+        focus:True
     MDFillRoundFlatButton:
         id: check_btn
         font_size: "20"
