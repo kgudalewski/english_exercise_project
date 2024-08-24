@@ -7,12 +7,16 @@ from kivymd.uix.datatables import MDDataTable
 from kivy.core.window import Window
 import pandas as pd
 import random
+import streamlit as st
+from streamlit_gsheets import GSheetsConnection
 
 Window.size = (400, 800)
 
 
 class WordsApp(MDApp):
-    df = pd.read_csv("dictionary.csv", index_col=0)
+    conn = st.connection('gsheets', type=GSheetsConnection)
+    data = conn.read(worksheet="dictionary")
+    df = pd.DataFrame(data)
     percent_of_words = 0.2
     idx = random.randint(0, int(round(df.shape[0] * percent_of_words)))
     word = df.ENG[idx]
@@ -108,6 +112,18 @@ ScreenManager:
         size_hint: 0.9, None
         on_press: root.manager.current = 'menu'
         on_press: root.manager.transition.direction = 'right'
+    MDRectangleFlatButton:
+        text: 'setting1'
+        pos_hint: {'center_x':0.5,'center_y':0.9}
+        size_hint: 0.9, None
+        on_press: root.manager.current = 'menu'
+        on_press: root.manager.transition.direction = 'right'
+    MDRectangleFlatButton:
+        text: 'setting2'
+        pos_hint: {'center_x':0.5,'center_y':0.8}
+        size_hint: 0.9, None
+        on_press: root.manager.current = 'menu'
+        on_press: root.manager.transition.direction = 'right'
         
 """
 
@@ -130,7 +146,8 @@ class GameScreen(Screen):
 
     def menu_switch_and_save(self, obj):
         self.normalize_weights()
-        WordsApp.df.to_csv("dictionary.csv")
+        WordsApp.conn.update(worksheet='dictionary', data=WordsApp.df)
+        # WordsApp.df.to_csv("dictionary.csv")
         self.manager.current = 'menu'
         self.manager.transition.direction = "right"
         self.dialog.dismiss()
