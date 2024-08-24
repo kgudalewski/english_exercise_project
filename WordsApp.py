@@ -3,7 +3,6 @@ from kivymd.uix.screen import Screen
 from kivy.lang import Builder
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.button import MDFlatButton, MDRectangleFlatButton
-from kivymd.uix.datatables import MDDataTable
 from kivy.core.window import Window
 import pandas as pd
 import random
@@ -61,7 +60,6 @@ ScreenManager:
     MDRectangleFlatButton:
         text: "Settings"
         pos_hint: {'center_x':0.5,'center_y':0.4}
-        font_size: "12"
         on_press: root.manager.current = 'settings'
         on_press: root.manager.transition.direction = 'left'
         size_hint: 0.5,None
@@ -70,7 +68,7 @@ ScreenManager:
     name: 'game'
     id: game
     MDRectangleFlatButton:
-        text: 'End game'
+        text: 'End game and save progress'
         pos_hint: {'center_x':0.5,'center_y':0.1}
         size_hint: 0.9, None
         on_press: root.end_game_dialog(self)
