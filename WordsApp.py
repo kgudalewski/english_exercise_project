@@ -111,7 +111,7 @@ ScreenManager:
         on_press: root.manager.current = 'menu'
         on_press: root.manager.transition.direction = 'right'
     MDRectangleFlatButton:
-        text: 'setting1'
+        text: 'darkmode or smth'
         pos_hint: {'center_x':0.5,'center_y':0.9}
         size_hint: 0.9, None
         on_press: root.manager.current = 'menu'
