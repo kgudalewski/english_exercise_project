@@ -28,6 +28,11 @@ class WordsApp(MDApp):
         self.root = Builder.load_string(screen_helper)
         return self.root
 
+    def switch_theme_color(self):
+        self.theme_cls.theme_style = (
+            "Dark" if self.theme_cls.theme_style == "Light" else "Light"
+        )
+
 
 screen_helper = """
 
@@ -110,12 +115,17 @@ ScreenManager:
         size_hint: 0.9, None
         on_press: root.manager.current = 'menu'
         on_press: root.manager.transition.direction = 'right'
-    MDRectangleFlatButton:
-        text: 'darkmode or smth'
+    MDLabel:
+        text: 'Dark/light mode'
+        color = 'Blue'
         pos_hint: {'center_x':0.5,'center_y':0.9}
         size_hint: 0.9, None
-        on_press: root.manager.current = 'menu'
-        on_press: root.manager.transition.direction = 'right'
+    MDSwitch:
+        active:True
+        width:dp(64)
+        pos_hint: {'center_x':0.8,'center_y':0.9}
+        size_hint: 0.1, None
+        on_active: app.switch_theme_color()
     MDRectangleFlatButton:
         text: 'setting2'
         pos_hint: {'center_x':0.5,'center_y':0.8}
@@ -234,8 +244,8 @@ class GameScreen(Screen):
 
 
 class SettingsScreen(Screen):
-
     pass
+
 
 
 WordsApp().run()
