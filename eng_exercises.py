@@ -49,7 +49,7 @@ def check_func(idx):
     global df
     yes_rate = 1.3
     no_rate = 0.7
-    answer = input("Correct ? [Y/N] ").upper()
+    answer = input("Correct ? [Y/N/EXIT] ").upper()
     if answer != "N" and answer != "EXIT":
         df.weights[idx] *= yes_rate
         sort_df_by_weight()

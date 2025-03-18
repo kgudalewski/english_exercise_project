@@ -117,7 +117,7 @@ ScreenManager:
         on_press: root.manager.transition.direction = 'right'
     MDLabel:
         text: 'Dark/light mode'
-        color = 'Blue'
+        color: app.theme_cls.primary_color
         pos_hint: {'center_x':0.5,'center_y':0.9}
         size_hint: 0.9, None
     MDSwitch:
@@ -126,12 +126,6 @@ ScreenManager:
         pos_hint: {'center_x':0.8,'center_y':0.9}
         size_hint: 0.1, None
         on_active: app.switch_theme_color()
-    MDRectangleFlatButton:
-        text: 'setting2'
-        pos_hint: {'center_x':0.5,'center_y':0.8}
-        size_hint: 0.9, None
-        on_press: root.manager.current = 'menu'
-        on_press: root.manager.transition.direction = 'right'
         
 """
 
